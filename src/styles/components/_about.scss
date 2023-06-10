@@ -1,0 +1,21 @@
+.about {
+  margin: 64px 0;
+  & &__title {
+    @include heading2;
+  }
+  & &__desc {
+    @include body1;
+  }
+  & &__image-content {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    padding: 50px;
+  }
+  & &__image-box:nth-of-type(1) {
+    @include image-box($brown-primary, "topleft");
+  }
+  & &__image-box:nth-of-type(2) {
+    @include image-box($orange-primary, "bottomright");
+  }
+}

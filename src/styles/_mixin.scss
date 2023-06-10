@@ -25,6 +25,15 @@
   line-height: 150%;
 }
 
+@mixin heading5 {
+  /* Heading5 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+}
+
 @mixin body1 {
   /* Body1 */
   font-family: "Roboto", sans-serif;
