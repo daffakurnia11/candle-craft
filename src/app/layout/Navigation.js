@@ -61,9 +61,9 @@ function Navigation() {
             <Link className="nav-link text-center px-3" href="/collection">
               Collection
             </Link>
-            <a className="nav-link text-center px-3" href="#">
+            <Link className="nav-link text-center px-3" href="/contact">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </div>
