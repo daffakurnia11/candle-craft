@@ -21,8 +21,8 @@ function TestiSwiper({ datas }) {
       slidesPerView={"auto"}
       navigation
     >
-      {datas.map((data) => (
-        <>
+      {datas.map((data, index) => (
+        <div key={index}>
           <SwiperSlide>
             <div className="card testimonials__card my-3">
               <div className="card-body p-0">
@@ -38,7 +38,7 @@ function TestiSwiper({ datas }) {
               </div>
             </div>
           </SwiperSlide>
-        </>
+        </div>
       ))}
     </Swiper>
   );

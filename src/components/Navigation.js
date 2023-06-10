@@ -1,5 +1,7 @@
-import React from "react";
+"use client";
+import React, { useEffect, useMemo } from "react";
 import { Caveat } from "next/font/google";
+import { FaBars } from "react-icons/fa";
 
 const caveatFont = Caveat({
   subsets: ["latin"],
@@ -7,6 +9,29 @@ const caveatFont = Caveat({
 });
 
 function Navigation() {
+  const handleScroll = useMemo(() => {
+    return () => {
+      const navbar = document.querySelector(".navbar");
+      const scrolled = window.scrollY > 100;
+
+      if (navbar && scrolled) {
+        navbar.classList.add("navbar-scrolled");
+      } else if (navbar) {
+        navbar.classList.remove("navbar-scrolled");
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [handleScroll]);
+
   return (
     <nav className="navbar navbar-expand-md fixed-top">
       <div className="container">
@@ -17,25 +42,29 @@ function Navigation() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#testasdasd"
-          aria-controls="testasdasd"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <FaBars color="#f4f4f4" />
         </button>
-        <div className="collapse navbar-collapse" id="testasdasd">
+        <div className="collapse navbar-collapse" id="navbarToggler">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link px-3 active" aria-current="page" href="#">
+            <a
+              className="nav-link text-center px-3 active"
+              aria-current="page"
+              href="#"
+            >
               Home
             </a>
-            <a className="nav-link px-3" href="#">
+            <a className="nav-link text-center px-3" href="#">
               About
             </a>
-            <a className="nav-link px-3" href="#">
+            <a className="nav-link text-center px-3" href="#">
               Collection
             </a>
-            <a className="nav-link px-3" href="#">
+            <a className="nav-link text-center px-3" href="#">
               Contact Us
             </a>
           </div>

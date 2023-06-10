@@ -1,3 +1,5 @@
+"use client";
+import { useEffect } from "react";
 import { Roboto } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/main.scss";
@@ -13,6 +15,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
+
   return (
     <html lang="en">
       <body className={robotoFont.className}>{children}</body>

@@ -3,4 +3,12 @@
   & &-nav .nav-link {
     color: $white-primary;
   }
+  & &-nav {
+    @media screen and (max-width: 768px) {
+      background-color: $black-primary;
+    }
+  }
+  &.navbar-scrolled {
+    background-color: $black-primary;
+  }
 }
