@@ -1,37 +1,27 @@
 @import "variables";
 @import "mixin";
 
-$home-bg: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../../public/background/home-bg.png");
+@import "components/navbar";
+@import "components/header";
 
-.navbar {
-  & &-brand,
-  & &-nav .nav-link {
-    color: $white-primary;
-  }
-}
-
-.header {
-  &.home {
-    @include header-bg($home-bg);
-  }
-  & &__content {
-    min-height: 100vh;
-  }
-  & &__subtitle,
-  & &__title,
-  & &__cta {
-    color: $white-primary;
-  }
-  & &__subtitle {
-    @include heading4;
-    margin: 0;
-  }
+.about {
+  padding: 64px 0;
   & &__title {
-    @include heading1;
-    margin: 0;
+    @include heading2;
   }
-  & &__cta {
-    @include header-cta;
+  & &__desc {
+    @include body1;
+  }
+  & &__image-content {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    padding: 50px;
+  }
+  & &__image-box:nth-of-type(1) {
+    @include image-box($brown-primary, "topleft");
+  }
+  & &__image-box:nth-of-type(2) {
+    @include image-box($orange-primary, "bottomright");
   }
 }

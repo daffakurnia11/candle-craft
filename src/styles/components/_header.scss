@@ -1,0 +1,24 @@
+.header {
+  &.home {
+    @include header-bg($home-bg);
+  }
+  & &__content {
+    min-height: 100vh;
+  }
+  & &__subtitle,
+  & &__title,
+  & &__cta {
+    color: $white-primary;
+  }
+  & &__subtitle {
+    @include heading4;
+    margin: 0;
+  }
+  & &__title {
+    @include heading1;
+    margin: 0;
+  }
+  & &__cta {
+    @include header-cta;
+  }
+}

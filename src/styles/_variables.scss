@@ -3,5 +3,10 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,s700;1,900&display=swap");
 }
 
+$home-bg: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../../public/background/home-bg.png");
+
 $white-primary: #f4f4f4;
 $black-primary: #05060a;
+$brown-primary: #dec9af;
+$orange-primary: #eeb27b;

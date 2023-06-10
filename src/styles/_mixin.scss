@@ -7,6 +7,15 @@
   line-height: 150%;
 }
 
+@mixin heading2 {
+  /* Heading2 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
 @mixin heading4 {
   /* Heading4 */
   font-family: "Roboto", sans-serif;
@@ -14,6 +23,16 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 150%;
+}
+
+@mixin body1 {
+  /* Body1 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.025em;
 }
 
 // Header Background Style
@@ -40,5 +59,23 @@
   &:hover {
     background-color: $white-primary;
     color: $black-primary;
+  }
+}
+
+// Image Box {
+@mixin image-box($bg-color, $position) {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 200px;
+  height: 200px;
+  border-radius: 24px;
+  background-color: $bg-color;
+  @if $position == "topleft" {
+    top: 0;
+    right: 0;
+  } @else {
+    bottom: 0;
+    left: 0;
   }
 }
