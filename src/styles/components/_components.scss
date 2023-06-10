@@ -1,4 +1,4 @@
-.section {
+.components {
   &__title {
     @include heading2;
   }
@@ -27,6 +27,9 @@
     }
     &.pink {
       @include image-box($pink-primary);
+    }
+    &.grey {
+      @include image-box($grey-primary);
     }
   }
 }

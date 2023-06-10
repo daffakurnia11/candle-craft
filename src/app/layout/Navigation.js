@@ -2,6 +2,7 @@
 import React, { useEffect, useMemo } from "react";
 import { Caveat } from "next/font/google";
 import { FaBars } from "react-icons/fa";
+import Link from "next/link";
 
 const caveatFont = Caveat({
   subsets: ["latin"],
@@ -51,16 +52,12 @@ function Navigation() {
         </button>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <div className="navbar-nav ms-auto">
-            <a
-              className="nav-link text-center px-3 active"
-              aria-current="page"
-              href="#"
-            >
+            <Link className="nav-link text-center px-3" href="/">
               Home
-            </a>
-            <a className="nav-link text-center px-3" href="#">
+            </Link>
+            <Link className="nav-link text-center px-3" href="/about">
               About
-            </a>
+            </Link>
             <a className="nav-link text-center px-3" href="#">
               Collection
             </a>

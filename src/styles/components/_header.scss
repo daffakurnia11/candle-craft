@@ -2,6 +2,9 @@
   &.home {
     @include header-bg($home-bg);
   }
+  &.aboutus {
+    @include header-bg($about-bg);
+  }
   & &__content {
     min-height: 100vh;
   }

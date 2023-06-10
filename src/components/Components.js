@@ -9,10 +9,14 @@ const ImageSection = ({
 }) => {
   return (
     <>
-      <div className="section__image-content">
-        <div className={`section__image-box ${firstColor} ${firstBox}`}></div>
-        <div className={`section__image-box ${secondColor} ${secondBox}`}></div>
-        <Image src={image} alt="Section Image" className="section__image" />
+      <div className="components__image-content">
+        <div
+          className={`components__image-box ${firstColor} ${firstBox}`}
+        ></div>
+        <div
+          className={`components__image-box ${secondColor} ${secondBox}`}
+        ></div>
+        <Image src={image} alt="Section Image" className="components__image" />
       </div>
     </>
   );

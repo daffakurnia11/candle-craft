@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixin";
 
-@import "components/section";
+@import "components/components";
 @import "components/typography";
 
 @import "components/navbar";
@@ -9,6 +9,7 @@
 @import "components/footer";
 
 @import "pages/homepage";
+@import "pages/aboutus";
 
 body {
   background-color: $white-primary;
