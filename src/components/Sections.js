@@ -1,9 +1,5 @@
 const { default: Image } = require("next/image");
 
-const TitleSection = ({ children, classes }) => {
-  return <h2 className={`section__title ${classes}`}>{children}</h2>;
-};
-
 const ImageSection = ({
   image,
   firstColor,
@@ -22,12 +18,16 @@ const ImageSection = ({
   );
 };
 
-const HeaderButton = ({ buttonAlign, children }) => {
-  return <button className={`header__cta ${buttonAlign}`}>{children}</button>;
+const HeaderButton = ({ buttonAlign, children, className }) => {
+  return (
+    <button className={`button__black ${buttonAlign} ${className}`}>
+      {children}
+    </button>
+  );
 };
 
-const SectionButton = ({ children }) => {
-  return <button className="section__button">{children}</button>;
+const SectionButton = ({ children, className }) => {
+  return <button className={`button__white ${className}`}>{children}</button>;
 };
 
-export { TitleSection, ImageSection, HeaderButton, SectionButton };
+export { ImageSection, HeaderButton, SectionButton };

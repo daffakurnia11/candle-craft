@@ -1,16 +1,18 @@
 import React from "react";
-import ValuesOne from "../../public/icon/fast-production-cycle.png";
-import ValuesTwo from "../../public/icon/trustworthy-transaction.png";
-import ValuesThree from "../../public/icon/premium-quality.png";
-import ValuesFour from "../../public/icon/exceptional-service.png";
+import ValuesOne from "../../../public/icon/fast-production-cycle.png";
+import ValuesTwo from "../../../public/icon/trustworthy-transaction.png";
+import ValuesThree from "../../../public/icon/premium-quality.png";
+import ValuesFour from "../../../public/icon/exceptional-service.png";
 import Image from "next/image";
-import { TitleSection } from "./Sections";
+import { Heading, Paragraph } from "../Typography";
 
-function HomeValues() {
+function OurValues() {
   return (
     <section className="values">
       <div className="container">
-        <TitleSection classes={"text-center mb-5"}>Our Values</TitleSection>
+        <Heading level={2} className={"text-center mb-5"}>
+          Our Values
+        </Heading>
         <div className="row">
           {/* First Value */}
           <div className="col-md-6 col-lg-3">
@@ -24,10 +26,10 @@ function HomeValues() {
             <h5 className="values__value text-center mt-3 mb-2">
               Fast Production Cycle
             </h5>
-            <p className="values__desc text-center">
+            <Paragraph level={1} className={"text-center"}>
               Experience efficient supply chain operations that guarantee quick
               product delivery.
-            </p>
+            </Paragraph>
           </div>
 
           {/* Second Value */}
@@ -42,10 +44,10 @@ function HomeValues() {
             <h5 className="values__value text-center mt-3 mb-2">
               Trustworthy Transactions
             </h5>
-            <p className="values__desc text-center">
+            <Paragraph level={1} className={"text-center"}>
               We uphold transparency and honesty, ensuring a secure shopping
               experience.
-            </p>
+            </Paragraph>
           </div>
 
           {/* Third Value */}
@@ -60,10 +62,10 @@ function HomeValues() {
             <h5 className="values__value text-center mt-3 mb-2">
               Premium Quality
             </h5>
-            <p className="values__desc text-center">
+            <Paragraph level={1} className={"text-center"}>
               Our candles, crafted from fine ingredients, offer a luxurious
               aromatic experience.
-            </p>
+            </Paragraph>
           </div>
 
           {/* Fourth Value */}
@@ -78,10 +80,10 @@ function HomeValues() {
             <h5 className="values__value text-center mt-3 mb-2">
               Exceptional Service
             </h5>
-            <p className="values__desc text-center">
+            <Paragraph level={1} className={"text-center"}>
               Committed to customer satisfaction, we aim to exceed expectations
               with prompt and responsive service.
-            </p>
+            </Paragraph>
           </div>
         </div>
       </div>
@@ -89,4 +91,4 @@ function HomeValues() {
   );
 }
 
-export default HomeValues;
+export default OurValues;

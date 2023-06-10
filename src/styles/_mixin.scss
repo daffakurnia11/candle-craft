@@ -16,6 +16,15 @@
   line-height: 150%;
 }
 
+@mixin heading3 {
+  /* Heading3 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+}
+
 @mixin heading4 {
   /* Heading4 */
   font-family: "Roboto", sans-serif;
@@ -56,7 +65,7 @@
 }
 
 // Header CTA Button
-@mixin header-cta {
+@mixin button-black {
   background-color: transparent;
   border: 1px solid $white-primary;
   padding: 12px 42px;
@@ -65,16 +74,33 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
+  color: $white-primary;
   &:hover {
     background-color: $white-primary;
     color: $black-primary;
   }
 }
 
+@mixin button-white {
+  background-color: transparent;
+  border: 1px solid $black-primary;
+  padding: 12px 32px;
+  border-radius: 40px;
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  color: $black-primary;
+  &:hover {
+    background-color: $black-primary;
+    color: $white-primary;
+  }
+}
+
 // Image Box {
 @mixin image-box($bg-color) {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   content: "";
   width: 200px;
   height: 200px;

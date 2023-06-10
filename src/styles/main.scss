@@ -2,11 +2,12 @@
 @import "mixin";
 
 @import "components/section";
+@import "components/typography";
 
 @import "components/navbar";
 @import "components/header";
-@import "components/about";
-@import "components/values";
+
+@import "pages/homepage";
 
 body {
   background-color: $white-primary;

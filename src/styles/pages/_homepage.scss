@@ -1,3 +1,7 @@
+.about {
+  margin: 64px 0;
+}
+
 .values {
   margin: 64px 0;
   & &__icon-container {
@@ -24,4 +28,9 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+.bestseller {
+  padding: 64px 0;
+  background-color: $grey-primary;
 }

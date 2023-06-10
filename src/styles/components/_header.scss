@@ -10,15 +10,4 @@
   & &__cta {
     color: $white-primary;
   }
-  & &__subtitle {
-    @include heading4;
-    margin: 0;
-  }
-  & &__title {
-    @include heading1;
-    margin: 0;
-  }
-  & &__cta {
-    @include header-cta;
-  }
 }

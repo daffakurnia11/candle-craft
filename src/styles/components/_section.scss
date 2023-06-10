@@ -8,6 +8,10 @@
     margin: auto;
     padding: 50px;
   }
+  &__image {
+    position: relative;
+    z-index: 1;
+  }
   &__image-box {
     &.brown {
       @include image-box($brown-primary);
@@ -15,5 +19,17 @@
     &.orange {
       @include image-box($orange-primary);
     }
+    &.pink {
+      @include image-box($pink-primary);
+    }
+  }
+}
+
+.button {
+  &__black {
+    @include button-black;
+  }
+  &__white {
+    @include button-white;
   }
 }

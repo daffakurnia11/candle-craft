@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { HeaderButton } from "./Sections";
+import { Heading } from "./Typography";
 
 function Header({ position, page }) {
   const textPosition = useMemo(() => {
@@ -32,12 +33,15 @@ function Header({ position, page }) {
         <div className={`row ${textPosition}`}>
           <div className="col-md-6">
             <div className="header__content d-flex flex-column justify-content-center">
-              <h2 className={`header__subtitle ${textAlign}`}>
+              <Heading
+                level={4}
+                className={`m-0 header__subtitle ${textAlign}`}
+              >
                 Spreading Scents Around the World
-              </h2>
-              <h1 className={`header__title ${textAlign}`}>
+              </Heading>
+              <Heading level={1} className={`m-0 header__title ${textAlign}`}>
                 Illuminate Your Ambiance
-              </h1>
+              </Heading>
               <HeaderButton buttonAlign={buttonAlign}>
                 Start Exploring
               </HeaderButton>

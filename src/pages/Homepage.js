@@ -1,16 +1,17 @@
 import Header from "@/components/Header";
-import HomeAbout from "@/components/HomeAbout";
-import HomeValues from "@/components/HomeValues";
+import About from "@/components/Home/About";
+import BestSeller from "@/components/Home/BestSeller";
+import OurValues from "@/components/Home/OurValues";
 import Navigation from "@/components/Navigation";
-import React from "react";
 
 function Homepage() {
   return (
     <>
       <Navigation />
       <Header position={"right"} page={"home"} />
-      <HomeAbout />
-      <HomeValues />
+      <About />
+      <OurValues />
+      <BestSeller />
     </>
   );
 }
