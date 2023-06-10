@@ -13,7 +13,7 @@ function Form() {
             </Heading>
             <form>
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-md-12 col-lg-6">
                   <div class="mb-3">
                     <label for="firstName" class="form-label">
                       First Name
@@ -27,7 +27,7 @@ function Form() {
                     />
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-md-12 col-lg-6">
                   <div class="mb-3">
                     <label for="lastName" class="form-label">
                       Last Name
@@ -41,7 +41,7 @@ function Form() {
                     />
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-md-12 col-lg-6">
                   <div class="mb-3">
                     <label for="email" class="form-label">
                       Email
@@ -55,7 +55,7 @@ function Form() {
                     />
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-md-12 col-lg-6">
                   <div class="mb-3">
                     <label for="phone" class="form-label">
                       Phone Number
