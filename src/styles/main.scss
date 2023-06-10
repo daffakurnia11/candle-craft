@@ -4,6 +4,10 @@
 @import "components/navbar";
 @import "components/header";
 
+body {
+  background-color: $white-primary;
+}
+
 .about {
   padding: 64px 0;
   & &__title {
