@@ -5,6 +5,10 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 150%;
+  @media screen and (max-width: 576px) {
+    font-size: 32px;
+    line-height: 120%;
+  }
 }
 
 @mixin heading2 {
@@ -14,6 +18,10 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 150%;
+  @media screen and (max-width: 576px) {
+    font-size: 28px;
+    line-height: 120%;
+  }
 }
 
 @mixin heading3 {
@@ -23,6 +31,10 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 150%;
+  @media screen and (max-width: 576px) {
+    font-size: 28px;
+    line-height: 120%;
+  }
 }
 
 @mixin heading4 {
@@ -32,6 +44,10 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 150%;
+  @media screen and (max-width: 576px) {
+    font-size: 20px;
+    line-height: 120%;
+  }
 }
 
 @mixin heading5 {
@@ -41,6 +57,10 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
+  @media screen and (max-width: 576px) {
+    font-size: 20px;
+    line-height: 120%;
+  }
 }
 
 @mixin heading6 {
@@ -60,6 +80,9 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.025em;
+  @media screen and (max-width: 576px) {
+    font-size: 14px;
+  }
 }
 
 @mixin body2 {
@@ -81,6 +104,9 @@
   background-size: cover;
   background-position: bottom -250px center;
   background-attachment: fixed;
+  @media screen and (max-width: 576px) {
+    background-position: bottom 0px center;
+  }
 }
 
 // Header CTA Button
@@ -125,4 +151,8 @@
   height: 200px;
   border-radius: 24px;
   background-color: $bg-color;
+  @media screen and (max-width: 576px) {
+    width: 125px;
+    height: 125px;
+  }
 }

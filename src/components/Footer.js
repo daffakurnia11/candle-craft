@@ -13,7 +13,7 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="mb-3 col-lg-4 col-md-6">
             <a className={`footer__brand ${caveatFont.className}`} href="#">
               CandleCraft
             </a>
@@ -47,8 +47,8 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-md-3">
+          <div className="mb-3 col-lg-1 d-none d-lg-block"></div>
+          <div className="mb-3 col-md-3">
             <Heading level={6} className={"mb-4"}>
               Products
             </Heading>
@@ -61,7 +61,7 @@ function Footer() {
               <li>Custom Candle</li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="mb-3 col-md-3">
             <Heading level={6} className={"mb-4"}>
               Links
             </Heading>
@@ -72,7 +72,7 @@ function Footer() {
               <li>Contact Us</li>
             </ul>
           </div>
-          <div className="col-md-1"></div>
+          <div className="mb-3 col-lg-1 d-none d-lg-block"></div>
         </div>
       </div>
     </footer>

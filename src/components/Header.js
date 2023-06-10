@@ -31,7 +31,7 @@ function Header({ position, page }) {
     <header className={`header ${page}`}>
       <div className="container">
         <div className={`row ${textPosition}`}>
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="header__content d-flex flex-column justify-content-center">
               <Heading
                 level={4}
@@ -39,7 +39,10 @@ function Header({ position, page }) {
               >
                 Spreading Scents Around the World
               </Heading>
-              <Heading level={1} className={`m-0 header__title ${textAlign}`}>
+              <Heading
+                level={1}
+                className={`m-0 header__title my-3 my-lg-0 ${textAlign}`}
+              >
                 Illuminate Your Ambiance
               </Heading>
               <HeaderButton buttonAlign={buttonAlign}>

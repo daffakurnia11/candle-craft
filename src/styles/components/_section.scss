@@ -11,6 +11,12 @@
   &__image {
     position: relative;
     z-index: 1;
+    width: 100%;
+    width: 300px;
+    height: auto;
+    @media screen and (max-width: 992px) {
+      max-width: 255px;
+    }
   }
   &__image-box {
     &.brown {

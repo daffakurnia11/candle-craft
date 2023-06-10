@@ -10,12 +10,12 @@ function OurValues() {
   return (
     <section className="values">
       <div className="container">
-        <Heading level={2} className={"text-center mb-5"}>
+        <Heading level={2} className={"text-center mb-md-5"}>
           Our Values
         </Heading>
         <div className="row">
           {/* First Value */}
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3 mb-3">
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesOne}
@@ -23,9 +23,12 @@ function OurValues() {
                 className="values__icon"
               />
             </div>
-            <h5 className="values__value text-center mt-3 mb-2">
+            <Heading
+              level={5}
+              className="values__value text-center mt-md-3 mb-md-2 my-0"
+            >
               Fast Production Cycle
-            </h5>
+            </Heading>
             <Paragraph level={1} className={"text-center"}>
               Experience efficient supply chain operations that guarantee quick
               product delivery.
@@ -33,7 +36,7 @@ function OurValues() {
           </div>
 
           {/* Second Value */}
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3 mb-3">
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesTwo}
@@ -41,9 +44,12 @@ function OurValues() {
                 className="values__icon"
               />
             </div>
-            <h5 className="values__value text-center mt-3 mb-2">
+            <Heading
+              level={5}
+              className="values__value text-center mt-md-3 mb-md-2 my-0"
+            >
               Trustworthy Transactions
-            </h5>
+            </Heading>
             <Paragraph level={1} className={"text-center"}>
               We uphold transparency and honesty, ensuring a secure shopping
               experience.
@@ -51,7 +57,7 @@ function OurValues() {
           </div>
 
           {/* Third Value */}
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3 mb-3">
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesThree}
@@ -59,9 +65,12 @@ function OurValues() {
                 className="values__icon"
               />
             </div>
-            <h5 className="values__value text-center mt-3 mb-2">
+            <Heading
+              level={5}
+              className="values__value text-center mt-md-3 mb-md-2 my-0"
+            >
               Premium Quality
-            </h5>
+            </Heading>
             <Paragraph level={1} className={"text-center"}>
               Our candles, crafted from fine ingredients, offer a luxurious
               aromatic experience.
@@ -69,7 +78,7 @@ function OurValues() {
           </div>
 
           {/* Fourth Value */}
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3 mb-3">
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesFour}
@@ -77,9 +86,12 @@ function OurValues() {
                 className="values__icon"
               />
             </div>
-            <h5 className="values__value text-center mt-3 mb-2">
+            <Heading
+              level={5}
+              className="values__value text-center mt-md-3 mb-md-2 my-0"
+            >
               Exceptional Service
-            </h5>
+            </Heading>
             <Paragraph level={1} className={"text-center"}>
               Committed to customer satisfaction, we aim to exceed expectations
               with prompt and responsive service.

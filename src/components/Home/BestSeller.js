@@ -13,7 +13,7 @@ function BestSeller() {
           Best Seller
         </Heading>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mb-5 mb-lg-0">
             <ImageSection
               image={BestSellerImg}
               firstColor={"brown"}
@@ -24,7 +24,7 @@ function BestSeller() {
           </div>
           <div className="col-lg-6">
             <Heading level={3}>Scented Bubble Candle</Heading>
-            <Paragraph level={1}>
+            <Paragraph level={1} className={"mb-4"}>
               Introducing our Aromatherapy Bubble Candles, meticulously
               handcrafted from environmentally-friendly palm wax. These charming
               bubble-shaped candles measure 6x6x5.5 cm and weigh 150 grams,
@@ -38,8 +38,10 @@ function BestSeller() {
               Aromatherapy Bubble Candles and indulge in the soothing glow and
               captivating aromas they offer.
             </Paragraph>
-            <div className="d-flex">
-              <SectionButton className="me-3">More Product</SectionButton>
+            <div className="d-flex flex-md-row flex-column align-items-center">
+              <SectionButton className="me-md-3 mb-3 mb-md-0">
+                More Product
+              </SectionButton>
               <SectionButton className="pe-4 d-flex align-items-center">
                 Get Orders{" "}
                 <Image

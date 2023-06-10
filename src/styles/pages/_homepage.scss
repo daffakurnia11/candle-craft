@@ -14,7 +14,6 @@
     height: auto;
   }
   & &__value {
-    @include heading5;
     height: 50px;
     display: flex;
     align-items: center;
@@ -22,7 +21,6 @@
   }
 
   & &__desc {
-    @include body1;
     height: 75px;
     display: flex;
     align-items: center;
