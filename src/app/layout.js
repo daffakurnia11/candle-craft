@@ -1,14 +1,10 @@
-import { Caveat, Roboto } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/main.scss";
 
 const robotoFont = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
-});
-
-const caveatFont = Caveat({
-  subsets: ["latin"],
 });
 
 export const metadata = {

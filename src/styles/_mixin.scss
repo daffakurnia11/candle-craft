@@ -1,0 +1,44 @@
+@mixin heading1 {
+  /* Heading1 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+}
+
+@mixin heading4 {
+  /* Heading4 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+// Header Background Style
+@mixin header-bg($bg-image) {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: $bg-image;
+  background-size: cover;
+  background-position: bottom -250px center;
+  background-attachment: fixed;
+}
+
+// Header CTA Button
+@mixin header-cta {
+  background-color: transparent;
+  border: 1px solid $white-primary;
+  padding: 12px 42px;
+  border-radius: 40px;
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $white-primary;
+    color: $black-primary;
+  }
+}

@@ -1,7 +1,9 @@
+import Homepage from "@/pages/Homepage";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="test">Test</h1>
+      <Homepage />
     </main>
   );
 }
