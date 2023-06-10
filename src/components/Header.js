@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { HeaderButton } from "./Sections";
 
 function Header({ position, page }) {
   const textPosition = useMemo(() => {
@@ -37,9 +38,9 @@ function Header({ position, page }) {
               <h1 className={`header__title ${textAlign}`}>
                 Illuminate Your Ambiance
               </h1>
-              <button className={`header__cta ${buttonAlign}`}>
+              <HeaderButton buttonAlign={buttonAlign}>
                 Start Exploring
-              </button>
+              </HeaderButton>
             </div>
           </div>
         </div>

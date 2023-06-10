@@ -4,12 +4,13 @@ import ValuesTwo from "../../public/icon/trustworthy-transaction.png";
 import ValuesThree from "../../public/icon/premium-quality.png";
 import ValuesFour from "../../public/icon/exceptional-service.png";
 import Image from "next/image";
+import { TitleSection } from "./Sections";
 
 function HomeValues() {
   return (
     <section className="values">
       <div className="container">
-        <h2 className="values__title text-center mb-5">Our Values</h2>
+        <TitleSection classes={"text-center mb-5"}>Our Values</TitleSection>
         <div className="row">
           {/* First Value */}
           <div className="col-md-6 col-lg-3">

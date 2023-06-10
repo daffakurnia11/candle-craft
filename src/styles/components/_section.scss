@@ -1,0 +1,19 @@
+.section {
+  &__title {
+    @include heading2;
+  }
+  &__image-content {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    padding: 50px;
+  }
+  &__image-box {
+    &.brown {
+      @include image-box($brown-primary);
+    }
+    &.orange {
+      @include image-box($orange-primary);
+    }
+  }
+}

@@ -1,6 +1,6 @@
-import Image from "next/image";
 import HomeAboutImg from "../../public/img/home-about.png";
 import React from "react";
+import { ImageSection, TitleSection } from "./Sections";
 
 function HomeAbout() {
   return (
@@ -8,7 +8,7 @@ function HomeAbout() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h2 className="about__title">About</h2>
+            <TitleSection>About</TitleSection>
             <p className="about__desc">
               CandleCraft is a premium scented candle provider, intertwining
               artistry and superior quality in every product. Drawing
@@ -25,15 +25,13 @@ function HomeAbout() {
             </p>
           </div>
           <div className="col-md-6">
-            <div className="about__image-content">
-              <div className="about__image-box"></div>
-              <div className="about__image-box"></div>
-              <Image
-                src={HomeAboutImg}
-                alt="Home About Image"
-                className="about__image"
-              />
-            </div>
+            <ImageSection
+              image={HomeAboutImg}
+              firstColor={"brown"}
+              secondColor={"orange"}
+              firstBox={"top-0 end-0"}
+              secondBox={"bottom-0 start-0"}
+            />
           </div>
         </div>
       </div>

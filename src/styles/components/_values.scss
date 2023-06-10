@@ -1,8 +1,5 @@
 .values {
   margin: 64px 0;
-  & &__title {
-    @include heading2;
-  }
   & &__icon-container {
     width: 100px;
     height: 100px;

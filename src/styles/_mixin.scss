@@ -72,7 +72,7 @@
 }
 
 // Image Box {
-@mixin image-box($bg-color, $position) {
+@mixin image-box($bg-color) {
   position: absolute;
   z-index: -1;
   content: "";
@@ -80,11 +80,4 @@
   height: 200px;
   border-radius: 24px;
   background-color: $bg-color;
-  @if $position == "topleft" {
-    top: 0;
-    right: 0;
-  } @else {
-    bottom: 0;
-    left: 0;
-  }
 }
