@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
-import { HeaderButton } from "./Sections";
-import { Heading } from "./Typography";
+import { HeaderButton } from "@/components/Components";
+import { Heading } from "@/components/Typography";
 
 function Header({ position, page }) {
   const textPosition = useMemo(() => {

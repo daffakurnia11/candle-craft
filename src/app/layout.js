@@ -1,8 +1,13 @@
 "use client";
 import { useEffect } from "react";
 import { Roboto } from "next/font/google";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/main.scss";
+
+import Navigation from "@/app/layout/Navigation";
+import Footer from "@/app/layout/Footer";
+import Head from "next/head";
 
 const robotoFont = Roboto({
   subsets: ["latin"],
@@ -21,7 +26,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={robotoFont.className}>{children}</body>
+      <body className={robotoFont.className}>
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

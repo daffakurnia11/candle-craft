@@ -1,6 +1,6 @@
 import React from "react";
-import { Heading } from "../Typography";
-import TestiSwiper from "../TestiSwiper";
+import { Heading } from "@/components/Typography";
+import TestiSwiper from "@/components/TestiSwiper";
 
 const testimoniData = [
   {

@@ -4,7 +4,7 @@ import ValuesTwo from "../../../public/icon/trustworthy-transaction.png";
 import ValuesThree from "../../../public/icon/premium-quality.png";
 import ValuesFour from "../../../public/icon/exceptional-service.png";
 import Image from "next/image";
-import { Heading, Paragraph } from "../Typography";
+import { Heading, Paragraph } from "@/components/Typography";
 
 function OurValues() {
   return (

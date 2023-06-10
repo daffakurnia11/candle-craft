@@ -1,6 +1,6 @@
 import React from "react";
 import { Caveat } from "next/font/google";
-import { Heading, Paragraph } from "./Typography";
+import { Heading, Paragraph } from "../../components/Typography";
 import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 
 const caveatFont = Caveat({

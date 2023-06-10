@@ -1,9 +1,17 @@
-import Homepage from "@/pages/Homepage";
+import Header from "@/app/layout/Header";
+import About from "@/app/home/About";
+import BestSeller from "@/app/home/BestSeller";
+import OurValues from "@/app/home/OurValues";
+import Testimonials from "@/app/home/Testimonials";
 
 export default function Home() {
   return (
-    <main>
-      <Homepage />
-    </main>
+    <>
+      <Header position={"right"} page={"home"} />
+      <About />
+      <OurValues />
+      <BestSeller />
+      <Testimonials />
+    </>
   );
 }

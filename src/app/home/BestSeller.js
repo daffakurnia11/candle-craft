@@ -1,6 +1,6 @@
 import React from "react";
-import { Heading, Paragraph } from "../Typography";
-import { ImageSection, SectionButton } from "../Sections";
+import { Heading, Paragraph } from "@/components/Typography";
+import { ImageSection, SectionButton } from "@/components/Components";
 import Image from "next/image";
 import BestSellerImg from "../../../public/img/best-seller.png";
 import WhatsappIcon from "../../../public/icon/whatsapp-icon.svg";

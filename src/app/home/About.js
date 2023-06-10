@@ -1,7 +1,7 @@
 import HomeAboutImg from "../../../public/img/home-about.png";
 import React from "react";
-import { ImageSection } from "../Sections";
-import { Heading, Paragraph } from "../Typography";
+import { ImageSection } from "../../components/Components";
+import { Heading, Paragraph } from "../../components/Typography";
 
 function About() {
   return (
