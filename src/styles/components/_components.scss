@@ -41,4 +41,7 @@
   &__white {
     @include button-white;
   }
+  &__small {
+    @include button-small;
+  }
 }

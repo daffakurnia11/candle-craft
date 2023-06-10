@@ -1,0 +1,11 @@
+.definition {
+  margin: 64px;
+}
+
+.product {
+  & &__image {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+  }
+}

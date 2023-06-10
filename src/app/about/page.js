@@ -13,7 +13,7 @@ export default function About() {
       <Header position={"right"} page={"aboutus"} />
       <section className="vismis">
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-md-6">
               <Vision />
               <Mission />

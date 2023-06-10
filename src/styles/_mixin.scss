@@ -96,14 +96,17 @@
 }
 
 // Header Background Style
-@mixin header-bg($bg-image) {
+@mixin header-bg($bg-image, $position-xl, $position-md) {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
   background: $bg-image;
   background-size: cover;
-  background-position: bottom -250px center;
+  background-position: bottom $position-xl center;
   background-attachment: fixed;
+  @media screen and (max-width: 992px) {
+    background-position: bottom $position-md center;
+  }
   @media screen and (max-width: 576px) {
     background-position: bottom 0px center;
   }
@@ -130,6 +133,22 @@
   background-color: transparent;
   border: 1px solid $black-primary;
   padding: 12px 32px;
+  border-radius: 40px;
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  color: $black-primary;
+  &:hover {
+    background-color: $black-primary;
+    color: $white-primary;
+  }
+}
+
+@mixin button-small {
+  background-color: transparent;
+  border: 1px solid $brown-primary;
+  padding: 8px 24px;
   border-radius: 40px;
   width: fit-content;
   font-family: "Roboto", sans-serif;
