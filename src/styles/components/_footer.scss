@@ -1,0 +1,23 @@
+.footer {
+  background-color: $black-primary;
+  padding: 64px 0;
+  color: $white-primary;
+  & &__brand {
+    color: inherit;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 16px;
+  }
+  & &__link {
+    color: inherit;
+  }
+  & &__list {
+    list-style: none;
+    padding-left: 0;
+    & > li {
+      margin-bottom: 16px;
+      @include body2;
+    }
+  }
+}

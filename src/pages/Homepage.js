@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import About from "@/components/Home/About";
 import BestSeller from "@/components/Home/BestSeller";
@@ -16,6 +17,7 @@ function Homepage() {
       <OurValues />
       <BestSeller />
       <Testimonials />
+      <Footer />
     </>
   );
 }

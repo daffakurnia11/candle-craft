@@ -13,6 +13,9 @@
 .heading-5 {
   @include heading5;
 }
+.heading-6 {
+  @include heading6;
+}
 
 .body-1 {
   @include body1;
