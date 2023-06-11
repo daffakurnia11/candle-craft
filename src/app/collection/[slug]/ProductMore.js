@@ -22,7 +22,9 @@ function ProductMore({ slug }) {
           {products.map((product, index) => (
             <SwiperSlide key={index}>
               <Image
-                src={require(`../../../../public/product/${product.image[0]}`)}
+                src={`/product/${product.image[0]}`}
+                width={450}
+                height={450}
                 alt={`${product.name} Image`}
                 className="product-more__image"
               />

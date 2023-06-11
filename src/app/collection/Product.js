@@ -16,7 +16,9 @@ function Product() {
           {ListProduct.map((data, index) => (
             <div className="col-sm-6 col-md-4 col-lg-3" key={index}>
               <Image
-                src={require(`../../../public/product/${data.image[0]}`)}
+                src={`/product/${data.image[0]}`}
+                width={450}
+                height={450}
                 alt={`${data.name} Product Image`}
                 className="product__image"
               />

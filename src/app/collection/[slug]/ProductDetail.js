@@ -23,7 +23,9 @@ function ProductDetail({ product }) {
         <div className="row">
           <div className="col-md-6 col-lg-4 mb-4">
             <Image
-              src={require(`../../../../public/product/${product.image[activeImage]}`)}
+              src={`/product/${product.image[activeImage]}`}
+              width={450}
+              height={450}
               alt={`${product.name} Image`}
               className="product-detail__image-show"
             />
@@ -31,7 +33,9 @@ function ProductDetail({ product }) {
               {product.image.map((image, index) => (
                 <SwiperSlide key={index}>
                   <Image
-                    src={require(`../../../../public/product/${image}`)}
+                    src={`/product/${image}`}
+                    width={450}
+                    height={450}
                     alt={`${image} file`}
                     className={`product-detail__image-list ${
                       activeImage === index ? "active" : null
