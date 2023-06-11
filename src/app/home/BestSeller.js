@@ -4,6 +4,7 @@ import { ImageSection, SectionButton } from "@/components/Components";
 import Image from "next/image";
 import BestSellerImg from "../../../public/img/best-seller.png";
 import WhatsappIcon from "../../../public/icon/whatsapp-icon.svg";
+import Link from "next/link";
 
 function BestSeller() {
   return (
@@ -39,17 +40,21 @@ function BestSeller() {
               captivating aromas they offer.
             </Paragraph>
             <div className="d-flex flex-md-row flex-column align-items-center">
-              <SectionButton className="me-md-3 mb-3 mb-md-0">
-                More Product
-              </SectionButton>
-              <SectionButton className="pe-4 d-flex align-items-center">
-                Get Orders{" "}
-                <Image
-                  src={WhatsappIcon}
-                  alt="Whatsapp Icon"
-                  className="ms-2"
-                />
-              </SectionButton>
+              <Link href={"/collection"}>
+                <SectionButton className="me-md-3 mb-3 mb-md-0">
+                  More Product
+                </SectionButton>
+              </Link>
+              <Link href="https://wa.me/6285156317474" target="_blank">
+                <SectionButton className="pe-4 d-flex align-items-center">
+                  Get Orders{" "}
+                  <Image
+                    src={WhatsappIcon}
+                    alt="Whatsapp Icon"
+                    className="ms-2"
+                  />
+                </SectionButton>
+              </Link>
             </div>
           </div>
         </div>

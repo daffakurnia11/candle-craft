@@ -30,22 +30,22 @@ function Footer() {
               Indonesia
             </Paragraph>
             <div className="d-flex mt-3">
-              <a className="footer__link" href="tel:6285156317473">
+              <Link className="footer__link" href="tel:6285156317473">
                 <BsTelephone size={30} className="me-3" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="footer__link"
                 href="https://wa.me/6285156317474"
                 target="_blank"
               >
                 <BsWhatsapp size={30} className="me-3" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="footer__link"
                 href="mailto:daffakurniaf11@gmail.com"
               >
                 <BsEnvelope size={30} className="me-3" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mb-3 col-lg-1 d-none d-lg-block"></div>

@@ -31,6 +31,9 @@
 .bestseller {
   padding: 64px 0;
   background-color: $grey-primary;
+  & a {
+    text-decoration: none !important;
+  }
 }
 
 .testimonials {

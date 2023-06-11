@@ -3,6 +3,7 @@ import React from "react";
 import ListProduct from "./ListProduct";
 import Image from "next/image";
 import { SmallButton } from "@/components/Components";
+import Link from "next/link";
 
 function Product() {
   return (
@@ -23,7 +24,9 @@ function Product() {
                 {data.name}
               </Paragraph>
               <div className="d-flex justify-content-center mb-4">
-                <SmallButton classname={"mx-auto"}>View More</SmallButton>
+                <Link href={`/collection/${data.slug}`}>
+                  <SmallButton classname={"mx-auto"}>View More</SmallButton>
+                </Link>
               </div>
             </div>
           ))}
