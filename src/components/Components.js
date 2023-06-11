@@ -22,10 +22,13 @@ const ImageSection = ({
   );
 };
 
-const HeaderButton = ({ buttonAlign, children, className }) => {
+const HeaderButton = ({ buttonAlign, ...props }) => {
   return (
-    <button className={`button__black ${buttonAlign} ${className}`}>
-      {children}
+    <button
+      className={`button__black ${buttonAlign} ${props.className}`}
+      onClick={props.onClick}
+    >
+      {props.children}
     </button>
   );
 };
