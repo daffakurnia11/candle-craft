@@ -2,6 +2,7 @@ import React from "react";
 import { Caveat } from "next/font/google";
 import { Heading, Paragraph } from "../../components/Typography";
 import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
+import Link from "next/link";
 
 const caveatFont = Caveat({
   subsets: ["latin"],
@@ -66,10 +67,18 @@ function Footer() {
               Links
             </Heading>
             <ul className="footer__list">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Collections</li>
-              <li>Contact Us</li>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/about">About</Link>
+              </li>
+              <li>
+                <Link href="/collection">Collection</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact Us</Link>
+              </li>
             </ul>
           </div>
           <div className="mb-3 col-lg-1 d-none d-lg-block"></div>
