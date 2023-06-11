@@ -22,23 +22,21 @@ function TestiSwiper({ datas }) {
       navigation
     >
       {datas.map((data, index) => (
-        <div key={index}>
-          <SwiperSlide>
-            <div className="card testimonials__card my-3">
-              <div className="card-body p-0">
-                <Paragraph level={1} className={"text-center mb-1"}>
-                  {data.name}
-                </Paragraph>
-                <div className="d-flex justify-content-center">
-                  <StarRating rating={data.rating} />
-                </div>
-                <Paragraph level={2} className={"text-center mt-2"}>
-                  {data.testimonial}
-                </Paragraph>
+        <SwiperSlide key={index}>
+          <div className="card testimonials__card my-3">
+            <div className="card-body p-0">
+              <Paragraph level={1} className={"text-center mb-1"}>
+                {data.name}
+              </Paragraph>
+              <div className="d-flex justify-content-center">
+                <StarRating rating={data.rating} />
               </div>
+              <Paragraph level={2} className={"text-center mt-2"}>
+                {data.testimonial}
+              </Paragraph>
             </div>
-          </SwiperSlide>
-        </div>
+          </div>
+        </SwiperSlide>
       ))}
     </Swiper>
   );
