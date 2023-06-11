@@ -54,12 +54,24 @@ function Footer() {
               Products
             </Heading>
             <ul className="footer__list">
-              <li>Scented Bubble Candle</li>
-              <li>Scented Sachet Candle</li>
-              <li>Glass Candle</li>
-              <li>Concrete Candle</li>
-              <li>Rose Candle</li>
-              <li>Custom Candle</li>
+              <li>
+                <Link href="/collection">Scented Bubble Candle</Link>
+              </li>
+              <li>
+                <Link href="/collection">Scented Sachet Candle</Link>
+              </li>
+              <li>
+                <Link href="/collection">Glass Candle</Link>
+              </li>
+              <li>
+                <Link href="/collection">Concrete Candle</Link>
+              </li>
+              <li>
+                <Link href="/collection">Rose Candle</Link>
+              </li>
+              {/* <li>
+                <Link href="/collection">Custom Candle</Link>
+              </li> */}
             </ul>
           </div>
           <div className="mb-3 col-md-3">
