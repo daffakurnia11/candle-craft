@@ -1,3 +1,4 @@
+"use client";
 import { Heading, Paragraph } from "@/components/Typography";
 import React from "react";
 import { getFilteredProducts } from "../ListProduct";
