@@ -7,7 +7,6 @@ import "../styles/main.scss";
 
 import Navigation from "@/app/layout/Navigation";
 import Footer from "@/app/layout/Footer";
-import Head from "next/head";
 
 const robotoFont = Roboto({
   subsets: ["latin"],
