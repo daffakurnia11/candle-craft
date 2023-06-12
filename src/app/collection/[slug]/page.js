@@ -1,11 +1,19 @@
 // "use client";
 import React from "react";
-import { getProductBySlug } from "../ListProduct";
+import ListProduct, { getProductBySlug } from "../ListProduct";
 
 import Header from "./Header";
 import Breadcrumb from "./Breadcrumb";
 import ProductDetail from "./ProductDetail";
 import ProductMore from "./ProductMore";
+
+export async function generateStaticParams() {
+  const product = ListProduct;
+
+  return product.map((product) => ({
+    slug: product.slug,
+  }));
+}
 
 export function generateMetadata({ params }) {
   // read route params
@@ -20,7 +28,6 @@ export function generateMetadata({ params }) {
     description: product.description,
   };
 }
-
 export default function Page({ params }) {
   const slug = params.slug;
   const product = getProductBySlug(slug);
