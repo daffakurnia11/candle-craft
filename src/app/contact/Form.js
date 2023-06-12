@@ -32,7 +32,7 @@ function Form() {
             <div className="row">
               <div className="col-sm-6 col-md-12 col-lg-6">
                 <div class="mb-3">
-                  <label for="firstName" class="form-label">
+                  <label htmlFor="firstName" class="form-label">
                     First Name
                   </label>
                   <input
@@ -49,7 +49,7 @@ function Form() {
               </div>
               <div className="col-sm-6 col-md-12 col-lg-6">
                 <div class="mb-3">
-                  <label for="lastName" class="form-label">
+                  <label htmlFor="lastName" class="form-label">
                     Last Name
                   </label>
                   <input
@@ -66,7 +66,7 @@ function Form() {
               </div>
               <div className="col-sm-6 col-md-12 col-lg-6">
                 <div class="mb-3">
-                  <label for="email" class="form-label">
+                  <label htmlFor="email" class="form-label">
                     Email
                   </label>
                   <input
@@ -83,7 +83,7 @@ function Form() {
               </div>
               <div className="col-sm-6 col-md-12 col-lg-6">
                 <div class="mb-3">
-                  <label for="phone" class="form-label">
+                  <label htmlFor="phone" class="form-label">
                     Phone Number
                   </label>
                   <input
@@ -100,7 +100,7 @@ function Form() {
               </div>
               <div className="col-sm-12">
                 <div class="mb-3">
-                  <label for="message" class="form-label">
+                  <label htmlFor="message" class="form-label">
                     Message
                   </label>
                   <textarea
