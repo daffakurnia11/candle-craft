@@ -16,7 +16,13 @@ const ImageSection = ({
         <div
           className={`components__image-box ${secondColor} ${secondBox}`}
         ></div>
-        <Image src={image} alt="Section Image" className="components__image" />
+        <Image
+          src={image}
+          width={300}
+          height={300}
+          alt="Section Image"
+          className="components__image"
+        />
       </div>
     </>
   );

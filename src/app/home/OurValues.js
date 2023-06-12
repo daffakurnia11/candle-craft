@@ -19,6 +19,8 @@ function OurValues() {
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesOne}
+                width={100}
+                height={100}
                 alt="Values Icon"
                 className="values__icon"
               />
@@ -40,6 +42,8 @@ function OurValues() {
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesTwo}
+                width={100}
+                height={100}
                 alt="Values Icon"
                 className="values__icon"
               />
@@ -61,6 +65,8 @@ function OurValues() {
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesThree}
+                width={100}
+                height={100}
                 alt="Values Icon"
                 className="values__icon"
               />
@@ -82,6 +88,8 @@ function OurValues() {
             <div className="values__icon-container d-flex justify-content-center align-items-center">
               <Image
                 src={ValuesFour}
+                width={100}
+                height={100}
                 alt="Values Icon"
                 className="values__icon"
               />

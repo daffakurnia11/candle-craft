@@ -73,6 +73,8 @@ function ProductDetail({ product }) {
                 Get Orders{" "}
                 <Image
                   src={WhatsappIcon}
+                  width={24}
+                  height={24}
                   alt="Whatsapp Icon"
                   className="ms-2"
                 />
