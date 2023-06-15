@@ -19,10 +19,8 @@ function Footer() {
               <a className={`footer__brand ${caveatFont.className}`} href="#">
                 CandleCraft
               </a>
-              <Paragraph level={1}>
-                Export {`CandleCraft's`} premium handcrafted candles.
-                Captivating scents, stunning designs. Enchanting glow for global
-                markets.
+              <Paragraph level={1} className={"mb-0"}>
+                PT. Kurnia Crafting and Supplier
               </Paragraph>
               <Paragraph level={1}>
                 Perum. Gading Fajar 1 B6/21 Buduran Sidoarjo,
