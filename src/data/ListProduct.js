@@ -1,4 +1,4 @@
-const ListProduct = [
+const listProduct = [
   {
     slug: "scented-aesthetic-bubble-3x3",
     category: "Scented Bubble Candle",
@@ -163,13 +163,13 @@ const ListProduct = [
 ];
 
 export const getProductBySlug = (slug) => {
-  const product = ListProduct.find((item) => item.slug === slug);
+  const product = listProduct.find((item) => item.slug === slug);
   return product || null;
 };
 
 export const getFilteredProducts = (slug) => {
-  const product = ListProduct.filter((item) => item.slug !== slug);
+  const product = listProduct.filter((item) => item.slug !== slug);
   return product || null;
 };
 
-export default ListProduct;
+export default listProduct;

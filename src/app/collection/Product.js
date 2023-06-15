@@ -1,6 +1,6 @@
 import { Heading, Paragraph } from "@/components/Typography";
 import React from "react";
-import ListProduct from "./ListProduct";
+import ListProduct from "@/data/ListProduct";
 import Image from "next/image";
 import { SmallButton } from "@/components/Components";
 import Link from "next/link";
