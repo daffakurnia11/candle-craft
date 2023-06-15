@@ -54,22 +54,99 @@ function ProductDetail({ product }) {
               {product.name}
             </Heading>
             <StarRating rating={product.star} />
-            <Heading level={6} className={"mt-4"}>
-              Variant
-            </Heading>
-            {product.variant.map((data, index) => (
-              <SmallButton classname={"me-2 mb-2"} key={index}>
-                {data}
-              </SmallButton>
-            ))}
-            <Heading level={6} className={"mt-4"}>
+            <Heading
+              level={6}
+              className={"mt-4"}
+              style={{ fontWeight: "bold" }}
+            >
               Description
             </Heading>
             <Paragraph className={"mt-2"} level={1}>
               {product.description}
             </Paragraph>
+            <div className="row gx-2 mt-2">
+              <div className="col-3 col-md-4 col-lg-2">
+                <div className="d-flex justify-content-between">
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    Variant
+                  </Paragraph>
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    :
+                  </Paragraph>
+                </div>
+              </div>
+              <div className="col-9 col-md-8 col-lg-10">
+                <Paragraph level={1} className="mb-0">
+                  {product.variant}
+                </Paragraph>
+              </div>
+            </div>
+            <div className="row gx-2 mt-2">
+              <div className="col-3 col-md-4 col-lg-2">
+                <div className="d-flex justify-content-between">
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    Dimension
+                  </Paragraph>
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    :
+                  </Paragraph>
+                </div>
+              </div>
+              <div className="col-9 col-md-8 col-lg-10">
+                <Paragraph level={1} className="mb-0">
+                  {product.dimension.length} mm <em>(length)</em>
+                </Paragraph>
+                <Paragraph level={1} className="mb-0">
+                  {product.dimension.width} mm <em>(width)</em>
+                </Paragraph>
+                <Paragraph level={1} className="mb-0">
+                  {product.dimension.height} mm <em>(height/depth)</em>
+                </Paragraph>
+              </div>
+            </div>
+            <div className="row gx-2 mt-2">
+              <div className="col-3 col-md-4 col-lg-2">
+                <div className="d-flex justify-content-between">
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    Weight
+                  </Paragraph>
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    :
+                  </Paragraph>
+                </div>
+              </div>
+              <div className="col-9 col-md-8 col-lg-10">
+                <Paragraph level={1} className="mb-0">
+                  {product.weight} gr
+                </Paragraph>
+              </div>
+            </div>
             <Link href="https://wa.me/6285156317474" target="_blank">
-              <SectionButton className="pe-4 d-flex align-items-center">
+              <SectionButton className="pe-4 mt-3 d-flex align-items-center">
                 Get Orders{" "}
                 <Image
                   src={WhatsappIcon}
