@@ -6,6 +6,7 @@ const ImageSection = ({
   secondColor,
   firstBox,
   secondBox,
+  ...props
 }) => {
   return (
     <>
@@ -22,6 +23,7 @@ const ImageSection = ({
           height={300}
           alt="Section Image"
           className="components__image"
+          style={props.style}
         />
       </div>
     </>

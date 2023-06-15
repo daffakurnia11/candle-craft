@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Paragraph } from "@/components/Typography";
 import { ImageSection, SectionButton } from "@/components/Components";
 import Image from "next/image";
-import BestSellerImg from "../../../public/img/best-seller.png";
+import BestSellerImg from "../../../public/product/bubble-3x3-1.jpg";
 import WhatsappIcon from "../../../public/icon/whatsapp-icon.svg";
 import Link from "next/link";
 
@@ -21,6 +21,7 @@ function BestSeller() {
               firstBox={"top-0 start-0"}
               secondColor={"pink"}
               secondBox={"bottom-0 end-0"}
+              style={{ borderRadius: 24 }}
             />
           </div>
           <div className="col-lg-6">
