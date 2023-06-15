@@ -1,4 +1,4 @@
-import HomeAboutImg from "../../../public/img/home-about.png";
+import HomeAboutImg from "../../../public/product/bubble-3x3-1.jpg";
 import React from "react";
 import { ImageSection } from "../../components/Components";
 import { Heading, Paragraph } from "../../components/Typography";
@@ -32,6 +32,7 @@ function About() {
               secondColor={"orange"}
               firstBox={"top-0 end-0"}
               secondBox={"bottom-0 start-0"}
+              style={{ borderRadius: 24 }}
             />
           </div>
         </div>

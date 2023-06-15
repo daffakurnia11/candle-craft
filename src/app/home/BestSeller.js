@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Paragraph } from "@/components/Typography";
 import { ImageSection, SectionButton } from "@/components/Components";
 import Image from "next/image";
-import BestSellerImg from "../../../public/product/bubble-3x3-1.jpg";
+import BestSellerImg from "../../../public/product/bubble-3x3-2.jpg";
 import WhatsappIcon from "../../../public/icon/whatsapp-icon.svg";
 import Link from "next/link";
 
