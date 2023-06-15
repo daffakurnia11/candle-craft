@@ -1,6 +1,6 @@
 // "use client";
 import React from "react";
-import ListProduct, { getProductBySlug } from "@/data/ListProduct";
+import ListProduct, { getProductBySlug } from "@/data/product";
 
 import Header from "./Header";
 import Breadcrumb from "./Breadcrumb";

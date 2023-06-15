@@ -771,6 +771,24 @@ const listProduct = [
   },
 ];
 
+export const listCategory = [
+  "Scented Bubble Candle",
+  "Scented Small Sachet Candle",
+  "Scented Sachet Candle",
+  "Glass Candle",
+  "Concrete Candle",
+  "Rose Candle",
+];
+
+export const listVariant = [
+  "White Vanilla",
+  "Yellow Lemon",
+  "Green Mint",
+  "Pink Rose",
+  "Blue Sky",
+  "Purple Lavender",
+];
+
 export const getProductBySlug = (slug) => {
   const product = listProduct.find((item) => item.slug === slug);
   return product || null;

@@ -60,6 +60,9 @@ function Footer() {
                   <Link href="/collection">Scented Bubble Candle</Link>
                 </li>
                 <li>
+                  <Link href="/collection">Scented Small Sachet Candle</Link>
+                </li>
+                <li>
                   <Link href="/collection">Scented Sachet Candle</Link>
                 </li>
                 <li>

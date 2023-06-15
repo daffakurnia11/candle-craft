@@ -1,7 +1,7 @@
 "use client";
 import { Heading, Paragraph } from "@/components/Typography";
 import React from "react";
-import { getFilteredProducts } from "@/data/ListProduct";
+import { getFilteredProducts } from "@/data/product";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
