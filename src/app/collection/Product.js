@@ -23,7 +23,6 @@ function Product() {
 
   const searchCategory = (val) => {
     const value = val.target.value !== "All" ? val.target.value : null;
-    console.log(value);
     setCategoryFilter(value);
     setProducts(getFilteredProduct(listProduct, value, variantFilter));
   };
@@ -37,8 +36,6 @@ function Product() {
   useEffect(() => {
     setProducts(listProduct);
   }, []);
-
-  console.log(products);
 
   return (
     <section className="product">
