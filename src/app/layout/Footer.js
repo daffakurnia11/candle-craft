@@ -3,6 +3,7 @@ import { Caveat } from "next/font/google";
 import { Heading, Paragraph } from "@/components/Typography";
 import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import Link from "next/link";
+import { listCategory } from "@/data/product";
 
 const caveatFont = Caveat({
   subsets: ["latin"],
@@ -54,24 +55,11 @@ function Footer() {
                 Products
               </Heading>
               <ul className="footer__list">
-                <li>
-                  <Link href="/collection">Scented Bubble Candle</Link>
-                </li>
-                <li>
-                  <Link href="/collection">Scented Small Sachet Candle</Link>
-                </li>
-                <li>
-                  <Link href="/collection">Scented Sachet Candle</Link>
-                </li>
-                <li>
-                  <Link href="/collection">Glass Candle</Link>
-                </li>
-                <li>
-                  <Link href="/collection">Concrete Candle</Link>
-                </li>
-                <li>
-                  <Link href="/collection">Rose Candle</Link>
-                </li>
+                {listCategory.map((data, index) => (
+                  <li key={index}>
+                    <Link href="/collection">{data}</Link>
+                  </li>
+                ))}
                 {/* <li>
                 <Link href="/collection">Custom Candle</Link>
               </li> */}

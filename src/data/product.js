@@ -769,6 +769,86 @@ const listProduct = [
     description:
       "Introducing our round scented sachet, a delightful burst of fragrance in a compact package. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. This charming sachet effortlessly infuses your space with a captivating aroma. With its perfectly round shape and exquisite design, it adds a touch of elegance to any room or enclosed space. Simply place it in your drawer, hang it in your closet, or tuck it in your suitcase to experience a burst of enchanting scent wherever you go. Let the inviting fragrance of our round scented sachet create an atmosphere of relaxation and joy, transforming any space into a haven of olfactory bliss.",
   },
+  {
+    slug: "black-doff-glass-with-white-rose",
+    category: "Glass Candle",
+    name: "Black Doff Glass with White Rose",
+    image: ["black-doff-glass-1.jpg", "black-doff-glass-2.jpg"],
+    star: 5,
+    variant: "White Vanilla",
+    dimension: {
+      length: 0,
+      width: 0,
+      height: 0,
+    },
+    weight: 0,
+    description:
+      "Introducing our Black Doff Glass with White Rose, a stunning fusion of darkness and delicacy. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. The sleek black doff glass vessel exudes an air of mystery and elegance, captivating the eye with its understated allure. Nestled within, a pristine white rose blooms, a symbol of purity and grace. This harmonious pairing creates a striking contrast, evoking a sense of refined beauty. Allow the enchanting fragrance to fill the air as the white rose releases its captivating aroma, creating a truly mesmerizing sensory experience. Elevate your space with the Black Doff Glass with White Rose, an embodiment of timeless elegance and aromatic bliss.",
+  },
+  {
+    slug: "white-doff-glass-with-white-rose",
+    category: "Glass Candle",
+    name: "White Doff Glass with Pink Rose",
+    image: ["white-doff-glass-1.jpg", "white-doff-glass-2.jpg"],
+    star: 5,
+    variant: "Pink Rose",
+    dimension: {
+      length: 0,
+      width: 0,
+      height: 0,
+    },
+    weight: 0,
+    description:
+      "Introducing our White Doff Glass with White Rose, a vision of pure elegance and serenity. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. The pristine white doff glass exudes a sense of purity and tranquility, effortlessly captivating the senses. Nestled within, a delicate white rose blossoms, exuding a gentle fragrance that fills the air with a soothing aura. This exquisite combination of the white doff glass and the delicate white rose creates a harmonious symphony of grace and beauty. Immerse yourself in the tranquil ambiance as the fragrance of the white rose envelops your space, creating a haven of serenity and bliss. Elevate your surroundings with the White Doff Glass with White Rose, a testament to refined aesthetics and aromatic enchantment.",
+  },
+  {
+    slug: "jar-glass-white-candle",
+    category: "Glass Candle",
+    name: "Jar Glass White Candle",
+    image: ["jar-glass-1.jpg", "jar-glass-2.jpg"],
+    star: 5,
+    variant: "White Vanilla",
+    dimension: {
+      length: 0,
+      width: 0,
+      height: 0,
+    },
+    weight: 0,
+    description:
+      "Introducing our Jar Glass White Candle, a timeless centerpiece of tranquility and illumination. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Encased in a sleek and elegant glass jar, this candle radiates a sense of purity and serenity. The soft glow emitted from within casts a warm and inviting ambiance, transforming any space into a haven of comfort. With its crisp white color, the candle exudes an air of simplicity and sophistication, effortlessly blending into any aesthetic. Ignite the wick and let the subtle fragrance envelop your surroundings, creating a soothing atmosphere that calms the senses. Embrace the gentle flicker and ethereal glow of our Jar Glass White Candle, as it adds a touch of enchantment and tranquility to your space.",
+  },
+  {
+    slug: "small-rose-in-glass",
+    category: "Glass Candle",
+    name: "Small Rose in Glass",
+    image: ["small-rose-glass-1.jpg", "small-rose-glass-2.jpg"],
+    star: 5,
+    variant: "Pink Rose",
+    dimension: {
+      length: 0,
+      width: 0,
+      height: 0,
+    },
+    weight: 0,
+    description:
+      "Introducing our Small Rose in Glass, a delicate marvel that encapsulates beauty and elegance. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Nestled within a clear glass enclosure, a single rose unfurls its petals, capturing the essence of romance and grace. This miniature masterpiece brings a touch of nature's splendor into your space, radiating with timeless allure. The preserved rose remains vibrant and everlasting, symbolizing enduring love and cherished moments. Whether displayed on a shelf or used as a decorative accent, our Small Rose in Glass adds a touch of enchantment to any setting. Revel in the captivating beauty of this preserved treasure, as it serves as a constant reminder of the beauty and joy found in the simplest of things.",
+  },
+  {
+    slug: "rose-in-glass",
+    category: "Glass Candle",
+    name: "Rose in Glass",
+    image: ["rose-glass-1.jpg", "rose-glass-2.jpg"],
+    star: 5,
+    variant: "Pink Rose",
+    dimension: {
+      length: 0,
+      width: 0,
+      height: 0,
+    },
+    weight: 0,
+    description:
+      "Introducing our Rose in Glass, a captivating display of beauty preserved in time. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Encased within a transparent glass dome, a single, meticulously preserved rose stands as a testament to everlasting elegance. The delicate petals retain their vibrant color and softness, while the glass enclosure protects and showcases their delicate form. This enchanting arrangement serves as a symbol of love, passion, and enduring beauty. Whether adorning your living space or offered as a heartfelt gift, the Rose in Glass is a timeless expression of emotions that transcends the passage of time. Revel in the mesmerizing allure of this exquisite creation, as it adds a touch of sophistication and romance to any setting.",
+  },
 ];
 
 export const listCategory = [
@@ -776,8 +856,8 @@ export const listCategory = [
   "Scented Small Sachet Candle",
   "Scented Sachet Candle",
   "Glass Candle",
-  "Concrete Candle",
-  "Rose Candle",
+  // "Concrete Candle",
+  // "Rose Candle",
 ];
 
 export const listVariant = [
