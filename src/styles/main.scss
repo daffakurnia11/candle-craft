@@ -18,3 +18,8 @@
 body {
   background-color: $white-primary;
 }
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}

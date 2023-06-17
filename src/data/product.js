@@ -5,6 +5,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 3x3 - White",
     image: ["bubble-3x3-white-1.jpg", "bubble-3x3-white-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 4.99,
+    save: 29,
     variant: "White Vanilla",
     dimension: {
       length: 60,
@@ -22,6 +25,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 3x3 - Yellow",
     image: ["bubble-3x3-yellow-1.jpg", "bubble-3x3-yellow-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 4.99,
+    save: 29,
     variant: "Yellow Lemon",
     dimension: {
       length: 60,
@@ -38,6 +44,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 3x3 - Green",
     image: ["bubble-3x3-green-1.jpg", "bubble-3x3-green-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 4.99,
+    save: 29,
     variant: "Green Mint",
     dimension: {
       length: 60,
@@ -54,6 +63,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 3x3 - Pink",
     image: ["bubble-3x3-pink-1.jpg", "bubble-3x3-pink-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 4.99,
+    save: 29,
     variant: "Pink Rose",
     dimension: {
       length: 60,
@@ -70,6 +82,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 3x3 - Blue",
     image: ["bubble-3x3-blue-1.jpg", "bubble-3x3-blue-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 4.99,
+    save: 29,
     variant: "Blue Sky",
     dimension: {
       length: 60,
@@ -86,6 +101,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 3x3 - Purple",
     image: ["bubble-3x3-purple-1.jpg", "bubble-3x3-purple-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 4.99,
+    save: 29,
     variant: "Purple Lavender",
     dimension: {
       length: 60,
@@ -102,6 +120,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 2x2 - White",
     image: ["placeholder-1.jpg", "placeholder-2.jpg"],
     star: 5,
+    price: 5.99,
+    price_off: 3.99,
+    save: 34,
     variant: "White Vanilla",
     dimension: {
       length: 40,
@@ -119,6 +140,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 2x2 - Yellow",
     image: ["placeholder-1.jpg", "placeholder-2.jpg"],
     star: 5,
+    price: 5.99,
+    price_off: 3.99,
+    save: 34,
     variant: "Yellow Lemon",
     dimension: {
       length: 40,
@@ -135,6 +159,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 2x2 - Green",
     image: ["placeholder-1.jpg", "placeholder-2.jpg"],
     star: 5,
+    price: 5.99,
+    price_off: 3.99,
+    save: 34,
     variant: "Green Mint",
     dimension: {
       length: 40,
@@ -151,6 +178,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 2x2 - Pink",
     image: ["placeholder-1.jpg", "placeholder-2.jpg"],
     star: 5,
+    price: 5.99,
+    price_off: 3.99,
+    save: 34,
     variant: "Pink Rose",
     dimension: {
       length: 40,
@@ -167,6 +197,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 2x2 - Blue",
     image: ["placeholder-1.jpg", "placeholder-2.jpg"],
     star: 5,
+    price: 5.99,
+    price_off: 3.99,
+    save: 34,
     variant: "Blue Sky",
     dimension: {
       length: 40,
@@ -183,6 +216,9 @@ const listProduct = [
     name: "Aesthetic Scented Bubble 2x2 - Purple",
     image: ["placeholder-1.jpg", "placeholder-2.jpg"],
     star: 5,
+    price: 5.99,
+    price_off: 3.99,
+    save: 34,
     variant: "Purple Lavender",
     dimension: {
       length: 40,
@@ -199,6 +235,9 @@ const listProduct = [
     name: "Small Scented Sachet - White",
     image: ["small-sachet-white-1.jpg"],
     star: 5,
+    price: 2.49,
+    price_off: 1.99,
+    save: 21,
     variant: "White Vanilla",
     dimension: {
       length: 50,
@@ -215,6 +254,9 @@ const listProduct = [
     name: "Small Scented Sachet - Yellow",
     image: ["small-sachet-yellow-1.jpg"],
     star: 5,
+    price: 2.49,
+    price_off: 1.99,
+    save: 21,
     variant: "Yellow Lemon",
     dimension: {
       length: 50,
@@ -231,6 +273,9 @@ const listProduct = [
     name: "Small Scented Sachet - Green",
     image: ["small-sachet-green-1.jpg"],
     star: 5,
+    price: 2.49,
+    price_off: 1.99,
+    save: 21,
     variant: "Green Mint",
     dimension: {
       length: 50,
@@ -247,6 +292,9 @@ const listProduct = [
     name: "Small Scented Sachet - Pink",
     image: ["small-sachet-pink-1.jpg"],
     star: 5,
+    price: 2.49,
+    price_off: 1.99,
+    save: 21,
     variant: "Pink Rose",
     dimension: {
       length: 50,
@@ -263,6 +311,9 @@ const listProduct = [
     name: "Small Scented Sachet - Blue",
     image: ["small-sachet-blue-1.jpg"],
     star: 5,
+    price: 2.49,
+    price_off: 1.99,
+    save: 21,
     variant: "Blue Sky",
     dimension: {
       length: 50,
@@ -279,6 +330,9 @@ const listProduct = [
     name: "Small Scented Sachet - Purple",
     image: ["small-sachet-purple-1.jpg"],
     star: 5,
+    price: 2.49,
+    price_off: 1.99,
+    save: 21,
     variant: "Purple Lavender",
     dimension: {
       length: 50,
@@ -295,6 +349,9 @@ const listProduct = [
     name: "Small Round Scented Sachet - White",
     image: ["small-round-sachet-white-1.jpg"],
     star: 5,
+    price: 2.99,
+    price_off: 2.49,
+    save: 17,
     variant: "White Vanilla",
     dimension: {
       length: 50,
@@ -311,6 +368,9 @@ const listProduct = [
     name: "Small Round Scented Sachet - Yellow",
     image: ["small-round-sachet-yellow-1.jpg"],
     star: 5,
+    price: 2.99,
+    price_off: 2.49,
+    save: 17,
     variant: "Yellow Lemon",
     dimension: {
       length: 50,
@@ -327,6 +387,9 @@ const listProduct = [
     name: "Small Round Scented Sachet - Green",
     image: ["small-round-sachet-green-1.jpg"],
     star: 5,
+    price: 2.99,
+    price_off: 2.49,
+    save: 17,
     variant: "Green Mint",
     dimension: {
       length: 50,
@@ -343,6 +406,9 @@ const listProduct = [
     name: "Small Round Scented Sachet - Pink",
     image: ["small-round-sachet-pink-1.jpg"],
     star: 5,
+    price: 2.99,
+    price_off: 2.49,
+    save: 17,
     variant: "Pink Rose",
     dimension: {
       length: 50,
@@ -359,6 +425,9 @@ const listProduct = [
     name: "Small Round Scented Sachet - Blue",
     image: ["small-round-sachet-blue-1.jpg"],
     star: 5,
+    price: 2.99,
+    price_off: 2.49,
+    save: 17,
     variant: "Blue Sky",
     dimension: {
       length: 50,
@@ -375,6 +444,9 @@ const listProduct = [
     name: "Small Round Scented Sachet - Purple",
     image: ["small-round-sachet-purple-1.jpg"],
     star: 5,
+    price: 2.99,
+    price_off: 2.49,
+    save: 17,
     variant: "Purple Lavender",
     dimension: {
       length: 50,
@@ -391,6 +463,9 @@ const listProduct = [
     name: "Bar Scented Sachet - White",
     image: ["sachet-bar-white-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "White Vanilla",
     dimension: {
       length: 95,
@@ -407,6 +482,9 @@ const listProduct = [
     name: "Bar Scented Sachet - Yellow",
     image: ["sachet-bar-yellow-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Yellow Lemon",
     dimension: {
       length: 95,
@@ -423,6 +501,9 @@ const listProduct = [
     name: "Bar Scented Sachet - Green",
     image: ["sachet-bar-green-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Green Mint",
     dimension: {
       length: 95,
@@ -439,6 +520,9 @@ const listProduct = [
     name: "Bar Scented Sachet - Pink",
     image: ["sachet-bar-pink-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Pink Rose",
     dimension: {
       length: 95,
@@ -455,6 +539,9 @@ const listProduct = [
     name: "Bar Scented Sachet - Blue",
     image: ["sachet-bar-blue-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Blue Sky",
     dimension: {
       length: 95,
@@ -471,6 +558,9 @@ const listProduct = [
     name: "Bar Scented Sachet - Purple",
     image: ["sachet-bar-purple-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Purple Lavender",
     dimension: {
       length: 95,
@@ -487,6 +577,9 @@ const listProduct = [
     name: "Hexa Scented Sachet - White",
     image: ["sachet-hexa-white-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "White Vanilla",
     dimension: {
       length: 95,
@@ -503,6 +596,9 @@ const listProduct = [
     name: "Hexa Scented Sachet - Yellow",
     image: ["sachet-hexa-yellow-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Yellow Lemon",
     dimension: {
       length: 95,
@@ -519,6 +615,9 @@ const listProduct = [
     name: "Hexa Scented Sachet - Green",
     image: ["sachet-hexa-green-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Green Mint",
     dimension: {
       length: 95,
@@ -535,6 +634,9 @@ const listProduct = [
     name: "Hexa Scented Sachet - Pink",
     image: ["sachet-hexa-pink-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Pink Rose",
     dimension: {
       length: 95,
@@ -551,6 +653,9 @@ const listProduct = [
     name: "Hexa Scented Sachet - Blue",
     image: ["sachet-hexa-blue-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Blue Sky",
     dimension: {
       length: 95,
@@ -567,6 +672,9 @@ const listProduct = [
     name: "Hexa Scented Sachet - Purple",
     image: ["sachet-hexa-purple-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Purple Lavender",
     dimension: {
       length: 95,
@@ -583,6 +691,9 @@ const listProduct = [
     name: "Oval Scented Sachet - White",
     image: ["sachet-oval-white-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "White Vanilla",
     dimension: {
       length: 95,
@@ -599,6 +710,9 @@ const listProduct = [
     name: "Oval Scented Sachet - Yellow",
     image: ["sachet-oval-yellow-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Yellow Lemon",
     dimension: {
       length: 95,
@@ -615,6 +729,9 @@ const listProduct = [
     name: "Oval Scented Sachet - Green",
     image: ["sachet-oval-green-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Green Mint",
     dimension: {
       length: 95,
@@ -631,6 +748,9 @@ const listProduct = [
     name: "Oval Scented Sachet - Pink",
     image: ["sachet-oval-pink-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Pink Rose",
     dimension: {
       length: 95,
@@ -647,6 +767,9 @@ const listProduct = [
     name: "Oval Scented Sachet - Blue",
     image: ["sachet-oval-blue-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Blue Sky",
     dimension: {
       length: 95,
@@ -663,6 +786,9 @@ const listProduct = [
     name: "Oval Scented Sachet - Purple",
     image: ["sachet-oval-purple-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Purple Lavender",
     dimension: {
       length: 95,
@@ -679,6 +805,9 @@ const listProduct = [
     name: "Round Scented Sachet - White",
     image: ["sachet-round-white-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "White Vanilla",
     dimension: {
       length: 80,
@@ -695,6 +824,9 @@ const listProduct = [
     name: "Round Scented Sachet - Yellow",
     image: ["sachet-round-yellow-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Yellow Lemon",
     dimension: {
       length: 80,
@@ -711,6 +843,9 @@ const listProduct = [
     name: "Round Scented Sachet - Green",
     image: ["sachet-round-green-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Green Mint",
     dimension: {
       length: 80,
@@ -727,6 +862,9 @@ const listProduct = [
     name: "Round Scented Sachet - Pink",
     image: ["sachet-round-pink-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Pink Rose",
     dimension: {
       length: 80,
@@ -743,6 +881,9 @@ const listProduct = [
     name: "Round Scented Sachet - Blue",
     image: ["sachet-round-blue-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Blue Sky",
     dimension: {
       length: 80,
@@ -759,6 +900,9 @@ const listProduct = [
     name: "Round Scented Sachet - Purple",
     image: ["sachet-round-purple-1.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Purple Lavender",
     dimension: {
       length: 80,
@@ -775,6 +919,9 @@ const listProduct = [
     name: "Black Doff Glass with White Rose",
     image: ["black-doff-glass-1.jpg", "black-doff-glass-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 6.49,
+    save: 8,
     variant: "White Vanilla",
     dimension: {
       length: 0,
@@ -791,6 +938,9 @@ const listProduct = [
     name: "White Doff Glass with Pink Rose",
     image: ["white-doff-glass-1.jpg", "white-doff-glass-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 6.49,
+    save: 8,
     variant: "Pink Rose",
     dimension: {
       length: 0,
@@ -807,6 +957,9 @@ const listProduct = [
     name: "Jar Glass White Candle",
     image: ["jar-glass-1.jpg", "jar-glass-2.jpg"],
     star: 5,
+    price: 6.99,
+    price_off: 5.49,
+    save: 22,
     variant: "White Vanilla",
     dimension: {
       length: 0,
@@ -823,6 +976,9 @@ const listProduct = [
     name: "Small Rose in Glass",
     image: ["small-rose-glass-1.jpg", "small-rose-glass-2.jpg"],
     star: 5,
+    price: 3.99,
+    price_off: 2.99,
+    save: 26,
     variant: "Pink Rose",
     dimension: {
       length: 0,
@@ -839,6 +995,9 @@ const listProduct = [
     name: "Rose in Glass",
     image: ["rose-glass-1.jpg", "rose-glass-2.jpg"],
     star: 5,
+    price: 4.99,
+    price_off: 3.49,
+    save: 31,
     variant: "Pink Rose",
     dimension: {
       length: 0,

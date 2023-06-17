@@ -80,22 +80,45 @@ function Product() {
         <div className="row">
           {products.length > 0 ? (
             products.map((data, index) => (
-              <div className="col-sm-6 col-md-4 col-lg-3" key={index}>
-                <Image
-                  src={`/product/${data.image[0]}`}
-                  width={450}
-                  height={450}
-                  alt={`${data.name} Product Image`}
-                  className="product__image"
-                />
-                <Paragraph level={1} className={"text-center mt-3 mb-2"}>
-                  {data.name}
-                </Paragraph>
-                <div className="d-flex justify-content-center mb-4">
+              <div className="col-sm-6 col-md-4 col-lg-3 mb-4" key={index}>
+                <Link href={`/collection/${data.slug}`}>
+                  <div className="position-relative">
+                    <Image
+                      src={`/product/${data.image[0]}`}
+                      width={450}
+                      height={450}
+                      alt={`${data.name} Product Image`}
+                      className="product__image"
+                    />
+                    <Paragraph level={2} className={"product__price-save"}>
+                      Save {data.save}%
+                    </Paragraph>
+                  </div>
+                  <Paragraph
+                    level={1}
+                    className={"text-center mt-3 mb-2 product__name"}
+                  >
+                    {data.name}
+                  </Paragraph>
+                </Link>
+                <div className="d-flex justify-content-center align-items-start">
+                  <Paragraph
+                    level={1}
+                    className={
+                      "text-decoration-line-through me-2 product__price"
+                    }
+                  >
+                    ${data.price}
+                  </Paragraph>
+                  <Heading level={6} className={"text-center"}>
+                    ${data.price_off}
+                  </Heading>
+                </div>
+                {/* <div className="d-flex justify-content-center mb-4">
                   <Link href={`/collection/${data.slug}`}>
                     <SmallButton classname={"mx-auto"}>View More</SmallButton>
                   </Link>
-                </div>
+                </div> */}
               </div>
             ))
           ) : (
