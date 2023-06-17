@@ -54,11 +54,11 @@ function ProductMore({ category, slug }) {
                   ${product.price_off}
                 </Heading>
               </div>
-              <div className="d-flex justify-content-center mb-4">
+              {/* <div className="d-flex justify-content-center mb-4">
                 <Link href={`/collection/${product.slug}`}>
                   <SmallButton classname={"mx-auto"}>View More</SmallButton>
                 </Link>
-              </div>
+              </div> */}
             </SwiperSlide>
           ))}
         </Swiper>
