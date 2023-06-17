@@ -1,7 +1,7 @@
 "use client";
 import { Heading, Paragraph } from "@/components/Typography";
 import React from "react";
-import { getFilteredProducts } from "@/data/product";
+import { getOtherVariant } from "@/data/product";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -9,14 +9,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { SmallButton } from "@/components/Components";
 
-function ProductMore({ category, slug }) {
-  const products = getFilteredProducts(category, slug);
+function ProductRelated({ category, slug }) {
+  const products = getOtherVariant(category, slug);
 
   return (
     <section className="product-more">
       <div className="container">
         <Heading level={4} className={"mb-4"}>
-          You may also like
+          Related Product
         </Heading>
         <Swiper spaceBetween={20} slidesPerView={"auto"}>
           {products.map((product, index) => (
@@ -54,11 +54,11 @@ function ProductMore({ category, slug }) {
                   ${product.price_off}
                 </Heading>
               </div>
-              <div className="d-flex justify-content-center mb-4">
+              {/* <div className="d-flex justify-content-center mb-4">
                 <Link href={`/collection/${product.slug}`}>
                   <SmallButton classname={"mx-auto"}>View More</SmallButton>
                 </Link>
-              </div>
+              </div> */}
             </SwiperSlide>
           ))}
         </Swiper>
@@ -67,4 +67,4 @@ function ProductMore({ category, slug }) {
   );
 }
 
-export default ProductMore;
+export default ProductRelated;

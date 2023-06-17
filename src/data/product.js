@@ -1033,8 +1033,17 @@ export const getProductBySlug = (slug) => {
   return product || null;
 };
 
-export const getFilteredProducts = (slug) => {
-  const product = listProduct.filter((item) => item.slug !== slug);
+export const getFilteredProducts = (category, slug) => {
+  const product = listProduct.filter(
+    (item) => item.slug !== slug && item.category !== category
+  );
+  return product || null;
+};
+
+export const getOtherVariant = (category, slug) => {
+  const product = listProduct.filter(
+    (item) => item.slug !== slug && item.category === category
+  );
   return product || null;
 };
 

@@ -116,4 +116,21 @@
     height: auto;
     border-radius: 24px;
   }
+  & &__price {
+    color: $orange-primary;
+  }
+  & &__price-save {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: $grey-primary;
+  }
+  & &__name {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: $orange-primary;
+    }
+  }
 }
