@@ -3,6 +3,8 @@ import React, { useEffect, useMemo } from "react";
 import { Caveat } from "next/font/google";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
+import LogoImg from "../../../public/logo.png";
 
 const caveatFont = Caveat({
   subsets: ["latin"],
@@ -36,7 +38,14 @@ function Navigation() {
   return (
     <nav className="navbar navbar-expand-md fixed-top">
       <div className="container">
-        <a className={`navbar-brand ${caveatFont.className}`} href="#">
+        <a className={`navbar-brand`} href="#">
+          <Image
+            src={LogoImg}
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block"
+          />
           CandleCraft
         </a>
         <button

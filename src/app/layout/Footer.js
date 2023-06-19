@@ -3,6 +3,8 @@ import { Heading, Paragraph } from "@/components/Typography";
 import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import Link from "next/link";
 import { listCategory } from "@/data/product";
+import Image from "next/image";
+import LogoImg from "../../../public/logo.png";
 
 function Footer() {
   return (
@@ -11,7 +13,18 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="mb-3 col-lg-4 col-md-6">
-              <a className={`footer__brand`} href="#">
+              <a
+                className={`footer__brand d-flex align-items-center`}
+                style={{ marginLeft: -16 }}
+                href="#"
+              >
+                <Image
+                  src={LogoImg}
+                  alt="Logo"
+                  width="70"
+                  height="70"
+                  class="d-block pb-0 mb-0"
+                />
                 CandleCraft
               </a>
               <Paragraph level={1} className={"mb-0"}>

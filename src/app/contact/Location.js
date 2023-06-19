@@ -8,6 +8,7 @@ function Location() {
         <div className="row align-items-center">
           <div className="col-md-5">
             <Heading level={2}>Find Us</Heading>
+            <Heading level={6}>PT. Kurnia Crafting and Supplier</Heading>
             <Paragraph level={1}>
               Perum. Gading Fajar 1 B6/21 RT19 RW05 Desa Siwalan Panji
               <br />
