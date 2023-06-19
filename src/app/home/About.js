@@ -1,4 +1,4 @@
-import HomeAboutImg from "../../../public/product/bubble-3x3-1.jpg";
+import HomeAboutImg from "../../../public/img/home-about.jpg";
 import React from "react";
 import { ImageSection } from "../../components/Components";
 import { Heading, Paragraph } from "../../components/Typography";

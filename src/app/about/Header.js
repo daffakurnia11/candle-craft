@@ -6,7 +6,7 @@ import { Caveat } from "next/font/google";
 
 import Vision from "./Vision";
 import Mission from "./Mission";
-import VisionMissionImg from "../../../public/img/vision-mission.png";
+import VisionMissionImg from "../../../public/img/vision-mission.jpg";
 
 const caveatFont = Caveat({
   subsets: ["latin"],
@@ -67,6 +67,7 @@ function Header() {
                 firstBox={"top-0 end-0"}
                 secondColor={"pink"}
                 secondBox={"bottom-0 start-0"}
+                style={{ borderRadius: 24 }}
               />
             </div>
           </div>

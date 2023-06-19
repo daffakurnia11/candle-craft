@@ -1,7 +1,7 @@
 import { ImageSection } from "@/components/Components";
 import { Heading, Paragraph } from "@/components/Typography";
 import React from "react";
-import DefinitionImg from "../../../public/img/definition.png";
+import DefinitionImg from "../../../public/img/definition.jpg";
 
 function Definition() {
   return (
@@ -36,6 +36,7 @@ function Definition() {
               firstBox={"top-0 end-0"}
               secondColor={"orange"}
               secondBox={"bottom-0 start-0"}
+              style={{ borderRadius: 24 }}
             />
           </div>
         </div>
