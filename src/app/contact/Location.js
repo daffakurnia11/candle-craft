@@ -16,9 +16,9 @@ function Location() {
               Indonesia
             </Paragraph>
             <Paragraph level={1}>
-              Phone : +62 8515631 7473
+              Phone : +62 851 5631 7473
               <br />
-              Email : daffakurniaf11@gmail.com
+              Email : kurniacraftsupplier@gmail.com
             </Paragraph>
           </div>
           <div className="col-md-7">

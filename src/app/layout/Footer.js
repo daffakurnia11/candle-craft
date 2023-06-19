@@ -1,14 +1,8 @@
 import React from "react";
-import { Caveat } from "next/font/google";
 import { Heading, Paragraph } from "@/components/Typography";
 import { BsEnvelope, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import Link from "next/link";
 import { listCategory } from "@/data/product";
-
-const caveatFont = Caveat({
-  subsets: ["latin"],
-  weight: ["700"],
-});
 
 function Footer() {
   return (
@@ -17,7 +11,7 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="mb-3 col-lg-4 col-md-6">
-              <a className={`footer__brand ${caveatFont.className}`} href="#">
+              <a className={`footer__brand`} href="#">
                 CandleCraft
               </a>
               <Paragraph level={1} className={"mb-0"}>
@@ -43,7 +37,7 @@ function Footer() {
                 </Link>
                 <Link
                   className="footer__link"
-                  href="mailto:daffakurniaf11@gmail.com"
+                  href="mailto:kurniacraftsupplier@gmail.com"
                 >
                   <BsEnvelope size={30} className="me-3" />
                 </Link>
