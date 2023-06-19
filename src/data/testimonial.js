@@ -1,45 +1,57 @@
 const testimoniData = [
   {
-    id: 1,
     name: "meike_erthalia",
     rating: 5,
     testimonial:
-      "I would like to say a big thank you to the seller for delivering my package on time. I ordered this for my research souvenir. I hope my respondents will like it because the wax is adorable and the scent is very fragrant. The best ones are apple, lemon, and ocean. Wishing you continued success, seller. Thank you for your assistance.",
+      "I want to say thank you very much to the seller because the package was delivered and I received it on time. I ordered this for my research souvenir. I hope my respondents will like it because the wax is cute and the scent is really fragrant. The best ones are apple, lemon, and ocean. Keep up the success, seller. Thank you for helping me.",
   },
   {
-    id: 2,
-    name: "nawalshila",
+    name: "adelweiis",
     rating: 5,
     testimonial:
-      "When it arrived, to be honest, many of them were broken, so I didn't know how to hang them. But I like the fragrances, they smell really nice, not too overpowering, and they are pleasant to smell. Thank you for the bonus as well. Thank you!",
+      "The soap aroma is delightful, not overwhelming. It may be small, but it's soooo fragrant. I could even smell it from outside the box. I bought many as souvenirs and got a bonus from the seller's sibling. Thank you so much, dear. Wishing you continuous success in your business!",
   },
   {
-    id: 3,
     name: "whalyqueenie88",
     rating: 5,
     testimonial:
-      "As soon as I opened the package, the scent was already incredibly fragrant. It's also beautiful, and I'm considering getting more of these for hampers next year. The seller is extremely friendly and responsible. They promptly replaced all the incorrect items in my order, and even included a bonus. What's even better is that they didn't give me any trouble, and everything was processed smoothly. Wishing you continued success with your business!",
+      "When I opened the package, the fragrance immediately filled the air. It's also beautiful, making me consider getting hampers like this for next year's gifts. The seller is incredibly friendly and responsible. They promptly replaced the wrong order and even gave a bonus. What's even more impressive is that they didn't make things complicated, everything was handled smoothly. Wishing you continued success in your business, dear.",
   },
   {
-    id: 4,
-    name: "meike_erthalia",
+    name: "ys_day",
     rating: 5,
     testimonial:
-      "I would like to say a big thank you to the seller for delivering my package on time. I ordered this for my research souvenir. I hope my respondents will like it because the wax is adorable and the scent is very fragrant. The best ones are apple, lemon, and ocean. Wishing you continued success, seller. Thank you for your assistance.",
+      "The package just arrived, I haven't opened it yet, but the scent is already incredibly fragrant, SubhanAllah! I highly recommend shopping at this online shop!!! All the items from this shop have an amazing fragrance... without even burning them, they fill up an entire room with a wonderful scent. Initially, there was a mix-up with the order, but the seller took responsibility and sent the correct items without needing to return the wrong ones, and they even gave a bonus.",
   },
   {
-    id: 5,
-    name: "nawalshila",
+    name: "bektianjarpratiwil",
     rating: 5,
     testimonial:
-      "When it arrived, to be honest, many of them were broken, so I didn't know how to hang them. But I like the fragrances, they smell really nice, not too overpowering, and they are pleasant to smell. Thank you for the bonus as well. Thank you!",
+      "It smells so good! Suitable for decoration. These candles have a delightful scent, even though they are just for display and not meant to be lit. They can still act as room fresheners.",
   },
   {
-    id: 6,
-    name: "whalyqueenie88",
+    name: "nilnilkunil",
     rating: 5,
     testimonial:
-      "As soon as I opened the package, the scent was already incredibly fragrant. It's also beautiful, and I'm considering getting more of these for hampers next year. The seller is extremely friendly and responsible. They promptly replaced all the incorrect items in my order, and even included a bonus. What's even better is that they didn't give me any trouble, and everything was processed smoothly. Wishing you continued success with your business!",
+      "The wax is incredibly beautiful and fragrant. The seller pays great attention to customer requests, responds quickly, provides excellent service, and ensures fast and secure delivery. Thank you!",
+  },
+  {
+    name: "putri_ayu_septiana_rifiyanti",
+    rating: 5,
+    testimonial:
+      "It's incredibly affordable, and the scent is also delightful. It's perfect for souvenirs or anything else. Despite the low price, the quality is excellent and not cheap-looking at all.",
+  },
+  {
+    name: "aureliafara",
+    rating: 5,
+    testimonial:
+      "It smells amazing!!! Performance: excellent. Quality: superb. The seller is incredibly kind and even provided free bubble wrap! Alhamdulillah, everything arrived safely without any damage. Thank you so much, seller, for being trustworthy.",
+  },
+  {
+    name: "sepenuhhati.salatiga",
+    rating: 5,
+    testimonial:
+      "Hehe, thank you to the seller. I kept getting bonuses with my previous purchases, so I was worried I might not have enough, but now it's even more. Wishing you continued success!",
   },
 ];
 
