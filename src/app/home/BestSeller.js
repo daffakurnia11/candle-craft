@@ -33,12 +33,12 @@ function BestSeller() {
               adding an aesthetic touch to any space. With a burn time of
               approximately 2-3 hours, they create a serene atmosphere and
               enhance relaxation. Choose from scents like Fresh Lemon, Luxury
-              Cherry, Lavender, and Jasmine, each carefully crafted to provide a
-              unique sensory experience. Made from responsibly sourced palm wax,
-              our commitment to quality and sustainability shines through.
-              Immerse yourself in the enchanting world of aromatherapy with our
-              Aromatherapy Bubble Candles and indulge in the soothing glow and
-              captivating aromas they offer.
+              Blueberry, Lavender, Mint, and Rose, each carefully crafted to
+              provide a unique sensory experience. Made from responsibly sourced
+              palm wax, our commitment to quality and sustainability shines
+              through. Immerse yourself in the enchanting world of aromatherapy
+              with our Aromatherapy Bubble Candles and indulge in the soothing
+              glow and captivating aromas they offer.
             </Paragraph>
             <div className="d-flex flex-md-row flex-column align-items-center">
               <Link href={"/collection"}>

@@ -9,7 +9,7 @@ const testimoniData = [
     name: "adelweiis",
     rating: 5,
     testimonial:
-      "The soap aroma is delightful, not overwhelming. It may be small, but it's soooo fragrant. I could even smell it from outside the box. I bought many as souvenirs and got a bonus from the seller's sibling. Thank you so much, dear. Wishing you continuous success in your business!",
+      "The smell is delightful, not overwhelming. It may be small, but it's soooo fragrant. I could even smell it from outside the box. I bought many as souvenirs and got a bonus from the seller's sibling. Thank you so much, dear. Wishing you continuous success in your business!",
   },
   {
     name: "whalyqueenie88",
