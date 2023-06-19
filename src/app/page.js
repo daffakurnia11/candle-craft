@@ -4,9 +4,8 @@ import OurValues from "@/app/home/OurValues";
 import Testimonials from "@/app/home/Testimonials";
 
 export const metadata = {
-  title: "CandleCraft - Home",
-  description:
-    "Spreading Scents Around the World, Illuminate Your Ambiance - CandleCraft",
+  title: "The Best Exporter of Scented Candle - Home | CandleCraft",
+  description: "The Best Exporter of Scented Candle - CandleCraft",
 };
 
 export default function Home() {

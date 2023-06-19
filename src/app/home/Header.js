@@ -24,13 +24,13 @@ function Header() {
             <div className="col-lg-6">
               <div className="header__content d-flex flex-column justify-content-center">
                 <Heading level={4} className={`m-0 header__subtitle text-end`}>
-                  Spreading Scents Around the World
+                  The Best Exporter from Indonesia
                 </Heading>
                 <Heading
                   level={1}
                   className={`m-0 header__title my-3 my-lg-0 text-end`}
                 >
-                  Illuminate Your Ambiance
+                  Exporting Exquisite Scents
                 </Heading>
                 <HeaderButton buttonAlign={"ms-auto"} onClick={scrollToAbout}>
                   Start Exploring

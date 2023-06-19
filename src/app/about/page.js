@@ -4,7 +4,7 @@ import OurValues from "../home/OurValues";
 import Testimonials from "../home/Testimonials";
 
 export const metadata = {
-  title: "CandleCraft - About",
+  title: "The Best Exporter of Scented Candle - About | CandleCraft",
   description:
     "CandleCraft is a scented candle crafted with care - CandleCraft",
 };

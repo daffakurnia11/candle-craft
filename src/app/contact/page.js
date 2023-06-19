@@ -3,7 +3,7 @@ import Header from "./Header";
 import Form from "./Form";
 
 export const metadata = {
-  title: "CandleCraft - Contact Us",
+  title: "The Best Exporter of Scented Candle - Contact | CandleCraft",
   description:
     "Your Global Export Partner, React Out and Connect - CandleCraft",
 };

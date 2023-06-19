@@ -25,7 +25,7 @@ export function generateMetadata({ params }) {
   const product = getProductBySlug(slug);
 
   return {
-    title: `CandleCraft - ${product.name}`,
+    title: `The Best Exporter of Scented Candle - ${product.name} | CandleCraft`,
     description: product.description,
   };
 }
