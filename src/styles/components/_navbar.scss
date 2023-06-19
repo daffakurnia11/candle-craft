@@ -4,6 +4,10 @@
   & &-nav .nav-link {
     color: $white-primary;
   }
+  & &-brand {
+    font-family: "Caveat";
+    font-weight: bold;
+  }
   & &-nav {
     @media screen and (max-width: 768px) {
       background-color: $black-primary;
