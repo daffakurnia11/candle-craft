@@ -30,9 +30,11 @@ function ProductRelated({ category, slug }) {
                     alt={`${product.name} Product Image`}
                     className="product-more__image"
                   />
-                  <Paragraph level={2} className={"product-more__price-save"}>
-                    Save {product.save}%
-                  </Paragraph>
+                  {product.save ? (
+                    <Paragraph level={2} className={"product-more__price-save"}>
+                      Save {product.save}%
+                    </Paragraph>
+                  ) : null}
                 </div>
                 <Paragraph
                   level={1}
@@ -42,14 +44,16 @@ function ProductRelated({ category, slug }) {
                 </Paragraph>
               </Link>
               <div className="d-flex justify-content-center align-items-start">
-                <Paragraph
-                  level={1}
-                  className={
-                    "text-decoration-line-through me-2 product-more__price"
-                  }
-                >
-                  ${product.price}
-                </Paragraph>
+                {product.price ? (
+                  <Paragraph
+                    level={1}
+                    className={
+                      "text-decoration-line-through me-2 product-more__price"
+                    }
+                  >
+                    ${product.price}
+                  </Paragraph>
+                ) : null}
                 <Heading level={6} className={"text-center"}>
                   ${product.price_off}
                 </Heading>

@@ -55,15 +55,19 @@ function ProductDetail({ product }) {
             </Heading>
             {/* <StarRating rating={product.star} /> */}
             <div className={"mb-3 d-flex align-items-start"}>
-              <Heading level={4} className="product-detail__price-old">
-                ${product.price}
-              </Heading>
+              {product.price ? (
+                <Heading level={4} className="product-detail__price-old">
+                  ${product.price}
+                </Heading>
+              ) : null}
               <Heading level={3} className="product-detail__price-new">
                 ${product.price_off}
               </Heading>
-              <Paragraph level={2} className="product-detail__save-price">
-                Save {product.save}%
-              </Paragraph>
+              {product.save ? (
+                <Paragraph level={2} className="product-detail__save-price">
+                  Save {product.save}%
+                </Paragraph>
+              ) : null}
             </div>
             <Heading
               level={6}

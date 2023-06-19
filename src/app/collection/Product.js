@@ -90,9 +90,11 @@ function Product() {
                       alt={`${data.name} Product Image`}
                       className="product__image"
                     />
-                    <Paragraph level={2} className={"product__price-save"}>
-                      Save {data.save}%
-                    </Paragraph>
+                    {data.save ? (
+                      <Paragraph level={2} className={"product__price-save"}>
+                        Save {data.save}%
+                      </Paragraph>
+                    ) : null}
                   </div>
                   <Paragraph
                     level={1}
@@ -102,14 +104,16 @@ function Product() {
                   </Paragraph>
                 </Link>
                 <div className="d-flex justify-content-center align-items-start">
-                  <Paragraph
-                    level={1}
-                    className={
-                      "text-decoration-line-through me-2 product__price"
-                    }
-                  >
-                    ${data.price}
-                  </Paragraph>
+                  {data.price ? (
+                    <Paragraph
+                      level={1}
+                      className={
+                        "text-decoration-line-through me-2 product__price"
+                      }
+                    >
+                      ${data.price}
+                    </Paragraph>
+                  ) : null}
                   <Heading level={6} className={"text-center"}>
                     ${data.price_off}
                   </Heading>
