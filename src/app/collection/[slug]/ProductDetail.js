@@ -53,7 +53,7 @@ function ProductDetail({ product }) {
             <Heading level={4} className={"m-0"}>
               {product.name}
             </Heading>
-            <StarRating rating={product.star} />
+            {/* <StarRating rating={product.star} /> */}
             <div className={"mb-3 d-flex align-items-start"}>
               <Heading level={4} className="product-detail__price-old">
                 ${product.price}

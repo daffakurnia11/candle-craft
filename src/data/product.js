@@ -970,25 +970,25 @@ const listProduct = [
     description:
       "Introducing our Jar Glass White Candle, a timeless centerpiece of tranquility and illumination. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Encased in a sleek and elegant glass jar, this candle radiates a sense of purity and serenity. The soft glow emitted from within casts a warm and inviting ambiance, transforming any space into a haven of comfort. With its crisp white color, the candle exudes an air of simplicity and sophistication, effortlessly blending into any aesthetic. Ignite the wick and let the subtle fragrance envelop your surroundings, creating a soothing atmosphere that calms the senses. Embrace the gentle flicker and ethereal glow of our Jar Glass White Candle, as it adds a touch of enchantment and tranquility to your space.",
   },
-  {
-    slug: "small-rose-in-glass",
-    category: "Glass Candle",
-    name: "Small Rose in Glass",
-    image: ["small-rose-glass-1.jpg", "small-rose-glass-2.jpg"],
-    star: 5,
-    price: 3.99,
-    price_off: 2.99,
-    save: 26,
-    variant: "Pink Rose",
-    dimension: {
-      length: 0,
-      width: 0,
-      height: 0,
-    },
-    weight: 0,
-    description:
-      "Introducing our Small Rose in Glass, a delicate marvel that encapsulates beauty and elegance. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Nestled within a clear glass enclosure, a single rose unfurls its petals, capturing the essence of romance and grace. This miniature masterpiece brings a touch of nature's splendor into your space, radiating with timeless allure. The preserved rose remains vibrant and everlasting, symbolizing enduring love and cherished moments. Whether displayed on a shelf or used as a decorative accent, our Small Rose in Glass adds a touch of enchantment to any setting. Revel in the captivating beauty of this preserved treasure, as it serves as a constant reminder of the beauty and joy found in the simplest of things.",
-  },
+  // {
+  //   slug: "small-rose-in-glass",
+  //   category: "Glass Candle",
+  //   name: "Small Rose in Glass",
+  //   image: ["small-rose-glass-1.jpg", "small-rose-glass-2.jpg"],
+  //   star: 5,
+  //   price: 3.99,
+  //   price_off: 2.99,
+  //   save: 26,
+  //   variant: "Pink Rose",
+  //   dimension: {
+  //     length: 0,
+  //     width: 0,
+  //     height: 0,
+  //   },
+  //   weight: 0,
+  //   description:
+  //     "Introducing our Small Rose in Glass, a delicate marvel that encapsulates beauty and elegance. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Nestled within a clear glass enclosure, a single rose unfurls its petals, capturing the essence of romance and grace. This miniature masterpiece brings a touch of nature's splendor into your space, radiating with timeless allure. The preserved rose remains vibrant and everlasting, symbolizing enduring love and cherished moments. Whether displayed on a shelf or used as a decorative accent, our Small Rose in Glass adds a touch of enchantment to any setting. Revel in the captivating beauty of this preserved treasure, as it serves as a constant reminder of the beauty and joy found in the simplest of things.",
+  // },
   {
     slug: "rose-in-glass",
     category: "Glass Candle",
