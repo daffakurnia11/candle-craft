@@ -1,7 +1,7 @@
 "use client";
 import { Heading } from "@/components/Typography";
 import React, { useState } from "react";
-import usePostData from "@/services/usePostData";
+// import usePostData from "@/services/usePostData";
 
 function Form() {
   const [data, setData] = useState({
@@ -11,14 +11,14 @@ function Form() {
     phone: "",
     message: "",
   });
-  const post = usePostData();
+  // const post = usePostData();
 
   const sendMessage = async () => {
     console.log(data);
     const path = "contact";
     const value = data;
 
-    await post.postData(path, value);
+    // await post.postData(path, value);
   };
 
   return (
