@@ -1,0 +1,74 @@
+.product-header {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../public/background/about-bg.jpg");
+  background-size: cover;
+  background-position: bottom -100px center;
+  background-attachment: fixed;
+  @media screen and (max-width: 576px) {
+    background-position: bottom 0px center;
+  }
+  & .container {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    color: $white-primary;
+  }
+}
+
+.product-breadcrumb {
+  padding: 24px 0;
+  & &__link {
+    color: $black-primary;
+    text-decoration: none;
+  }
+}
+
+.product-detail {
+  & &__image-show {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  & &__image-list {
+    width: 100px;
+    height: auto;
+    opacity: 0.5;
+    &.active {
+      opacity: 1;
+    }
+  }
+  & &__price-old {
+    display: inline-block;
+    margin-right: 8px;
+    text-decoration: line-through;
+    color: $brown-primary;
+  }
+  & &__price-new {
+    display: inline-block;
+    margin-right: 4px;
+    color: $black-primary;
+  }
+  & &__save-price {
+    display: block;
+    padding: 4px;
+    background-color: $orange-primary;
+    border-radius: 4px;
+    color: $black-primary;
+  }
+  & .swiper {
+    width: 100%;
+    height: 100%;
+    & .swiper-slide {
+      width: fit-content;
+    }
+  }
+  & a {
+    text-decoration: none !important;
+  }
+}

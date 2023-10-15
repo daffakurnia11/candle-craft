@@ -1,6 +1,6 @@
 const listProduct = [
   {
-    slug: "Aesthetic-scented-bubble-3x3",
+    slug: "aesthetic-scented-bubble-3x3",
     category: "Scented Bubble Candle",
     name: "Aesthetic Scented Bubble 3x3",
     image: [
@@ -39,7 +39,7 @@ const listProduct = [
       "Introducing our mesmerizing Bubble Candle Aromatherapy collection. Crafted with vibrant colors and infused with essential oils, each 100% homemade candle is a work of art. Immerse yourself in a sensory journey with our aesthetic scented bubble. As you unwind, delicate notes of enchanting fragrance fill the air, creating a captivating atmosphere. The elegantly designed bubble adds a touch of visual allure to any space, with its charming form and exquisite details. Let the soothing aroma transport you to a world of tranquility, as the gentle bubbles bring a sense of relaxation and serenity. Elevate your surroundings with this delightful sensory experience, where aesthetics and aromatics converge to create a truly enchanting ambiance.",
   },
   {
-    slug: "Aesthetic-scented-bubble-2x2",
+    slug: "aesthetic-scented-bubble-2x2",
     category: "Scented Bubble Candle",
     name: "Aesthetic Scented Bubble 2x2",
     image: [

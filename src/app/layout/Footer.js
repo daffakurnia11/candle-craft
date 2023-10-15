@@ -78,16 +78,16 @@ function Footer() {
               </Heading>
               <ul className="footer__list">
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/#">Home</Link>
                 </li>
                 <li>
-                  <Link href="/about">About</Link>
+                  <Link href="/#about">About</Link>
                 </li>
                 <li>
-                  <Link href="/collection">Collection</Link>
+                  <Link href="/#products">Products</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="/#contact">Contact Us</Link>
                 </li>
               </ul>
             </div>

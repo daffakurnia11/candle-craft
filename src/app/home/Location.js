@@ -3,7 +3,7 @@ import React from "react";
 
 function Location() {
   return (
-    <section className="location">
+    <section id="contact" className="location">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-5">
