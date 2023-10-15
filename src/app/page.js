@@ -1,5 +1,5 @@
 import Header from "@/app/home/Header";
-import BestSeller from "@/app/home/BestSeller";
+import Products from "@/app/home/Products";
 import OurValues from "@/app/home/OurValues";
 import Location from "@/app/home/Location";
 
@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Header />
       <OurValues />
-      <BestSeller />
+      <Products />
       <Location />
       {/* <Testimonials /> */}
     </>

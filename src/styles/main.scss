@@ -20,3 +20,21 @@ a {
   text-decoration: none !important;
   color: inherit !important;
 }
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: fit-content;
+  height: fit-content;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
