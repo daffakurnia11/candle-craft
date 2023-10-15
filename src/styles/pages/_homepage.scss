@@ -36,23 +36,6 @@
   }
 }
 
-.testimonials {
-  margin: 64px 0;
-  .swiper {
-    width: 100%;
-    height: 100%;
-    .swiper-slide {
-      width: fit-content;
-    }
-  }
-  & &__card {
-    border-color: transparent;
-    padding: 24px 32px;
-    background-color: #e7e7e7;
-    width: 100%;
-    max-width: 380px;
-    height: 300px;
-    box-shadow: 8px 8px 8px rgba(5, 6, 10, 0.1);
-    border-radius: 20px;
-  }
+.location {
+  padding: 64px 0;
 }

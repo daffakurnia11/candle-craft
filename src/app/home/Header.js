@@ -20,19 +20,22 @@ function Header() {
     <>
       <header className={`header home`}>
         <div className="container">
-          <div className={`row flex-row-reverse`}>
+          <div className={`row flex-row`}>
             <div className="col-lg-6">
               <div className="header__content d-flex flex-column justify-content-center">
-                <Heading level={4} className={`m-0 header__subtitle text-end`}>
+                <Heading
+                  level={4}
+                  className={`m-0 header__subtitle text-start`}
+                >
                   The Best Exporter from Indonesia
                 </Heading>
                 <Heading
                   level={1}
-                  className={`m-0 header__title my-3 my-lg-0 text-end`}
+                  className={`m-0 header__title my-3 my-lg-0 text-start`}
                 >
                   Exporting Exquisite Scents
                 </Heading>
-                <HeaderButton buttonAlign={"ms-auto"} onClick={scrollToAbout}>
+                <HeaderButton buttonAlign={"me-auto"} onClick={scrollToAbout}>
                   Start Exploring
                 </HeaderButton>
               </div>

@@ -2,15 +2,6 @@
   &.home {
     @include header-bg($home-bg, -250px, 0);
   }
-  &.aboutus {
-    @include header-bg($about-bg, -250px, 0);
-  }
-  &.collection {
-    @include header-bg($collection-bg, -600px, -300px);
-  }
-  &.contact {
-    @include header-bg($contact-bg, -500px, -250px);
-  }
   & &__content {
     min-height: 100vh;
   }

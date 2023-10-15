@@ -68,7 +68,7 @@ function Navigation() {
               About
             </Link>
             <Link className="nav-link text-center px-3" href="/collection">
-              Collection
+              Products
             </Link>
             <Link className="nav-link text-center px-3" href="/contact">
               Contact Us
