@@ -40,6 +40,8 @@
     position: relative;
     .products__image {
       filter: grayscale(1);
+      width: 350px;
+      height: 350px;
     }
     .products__detail {
       transition: all 0.3s ease-in-out;

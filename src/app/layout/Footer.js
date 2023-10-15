@@ -23,7 +23,7 @@ function Footer() {
                   alt="Logo"
                   width="70"
                   height="70"
-                  class="d-block pb-0 mb-0"
+                  className="d-block pb-0 mb-0"
                 />
                 CandleCraft
               </a>

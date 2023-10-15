@@ -44,7 +44,7 @@ function Navigation() {
             alt="Logo"
             width="50"
             height="50"
-            class="d-inline-block"
+            className="d-inline-block"
           />
           CandleCraft
         </a>
