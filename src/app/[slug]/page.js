@@ -5,8 +5,6 @@ import ListProduct, { getProductBySlug } from "@/data/product";
 import Header from "./Header";
 import Breadcrumb from "./Breadcrumb";
 import ProductDetail from "./ProductDetail";
-import ProductRelated from "./ProductRelated";
-import ProductMore from "./ProductMore";
 
 export async function generateStaticParams() {
   const product = ListProduct;
@@ -38,8 +36,6 @@ export default function Page({ params }) {
       <Header />
       <Breadcrumb product={product} />
       <ProductDetail product={product} />
-      <ProductRelated category={product.category} slug={slug} />
-      <ProductMore category={product.category} slug={slug} />
     </>
   );
 }

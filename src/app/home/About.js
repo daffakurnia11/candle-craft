@@ -5,7 +5,7 @@ import { Heading, Paragraph } from "../../components/Typography";
 
 function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">

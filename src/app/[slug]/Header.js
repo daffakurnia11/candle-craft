@@ -9,7 +9,7 @@ function Header() {
           level={1}
           className={`m-0 product-header__title my-3 my-lg-0 text-center`}
         >
-          Our Collections
+          Our Products
         </Heading>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import Header from "@/app/home/Header";
-import BestSeller from "@/app/home/BestSeller";
+import Products from "@/app/home/Products";
 import OurValues from "@/app/home/OurValues";
-import Testimonials from "@/app/home/Testimonials";
+import Location from "@/app/home/Location";
 
 export const metadata = {
   title: "The Best Exporter of Scented Candle - Home | CandleCraft",
@@ -11,10 +11,11 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Header position={"right"} page={"home"} />
+      <Header />
       <OurValues />
-      <BestSeller />
-      <Testimonials />
+      <Products />
+      <Location />
+      {/* <Testimonials /> */}
     </>
   );
 }

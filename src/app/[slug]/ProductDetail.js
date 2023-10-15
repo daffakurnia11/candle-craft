@@ -1,11 +1,9 @@
 "use client";
-import { SectionButton, SmallButton } from "@/components/Components";
-import StarRating from "@/components/StarRating";
+import { SectionButton } from "@/components/Components";
 import { Heading, Paragraph } from "@/components/Typography";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import WhatsappIcon from "../../../../public/icon/whatsapp-icon.svg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -18,7 +16,7 @@ function ProductDetail({ product }) {
   };
 
   return (
-    <section className="product-detail">
+    <section className="product-detail pb-5">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-4 mb-4">
@@ -53,22 +51,6 @@ function ProductDetail({ product }) {
             <Heading level={4} className={"m-0"}>
               {product.name}
             </Heading>
-            {/* <StarRating rating={product.star} /> */}
-            <div className={"mb-3 d-flex align-items-start"}>
-              {product.price ? (
-                <Heading level={4} className="product-detail__price-old">
-                  ${product.price}
-                </Heading>
-              ) : null}
-              <Heading level={3} className="product-detail__price-new">
-                ${product.price_off}
-              </Heading>
-              {product.save ? (
-                <Paragraph level={2} className="product-detail__save-price">
-                  Save {product.save}%
-                </Paragraph>
-              ) : null}
-            </div>
             <Heading
               level={6}
               className={"mt-4"}
@@ -99,9 +81,11 @@ function ProductDetail({ product }) {
                 </div>
               </div>
               <div className="col-9 col-md-8 col-lg-10">
-                <Paragraph level={1} className="mb-0">
-                  {product.variant}
-                </Paragraph>
+                {product.variant.map((variant, key) => (
+                  <Paragraph key={key} level={1} className="mb-0">
+                    {variant}
+                  </Paragraph>
+                ))}
               </div>
             </div>
             <div className="row gx-2 mt-2">
@@ -164,7 +148,7 @@ function ProductDetail({ product }) {
               <SectionButton className="pe-4 mt-3 d-flex align-items-center">
                 Get Orders{" "}
                 <Image
-                  src={WhatsappIcon}
+                  src={"/icon/whatsapp-icon.svg"}
                   width={24}
                   height={24}
                   alt="Whatsapp Icon"

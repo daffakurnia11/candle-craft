@@ -44,7 +44,7 @@ function Navigation() {
             alt="Logo"
             width="50"
             height="50"
-            class="d-inline-block"
+            className="d-inline-block"
           />
           CandleCraft
         </a>
@@ -61,16 +61,16 @@ function Navigation() {
         </button>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <div className="navbar-nav ms-auto">
-            <Link className="nav-link text-center px-3" href="/">
+            <Link className="nav-link text-center px-3" href="/#">
               Home
             </Link>
-            <Link className="nav-link text-center px-3" href="/about">
+            <Link className="nav-link text-center px-3" href="/#about">
               About
             </Link>
-            <Link className="nav-link text-center px-3" href="/collection">
-              Collection
+            <Link className="nav-link text-center px-3" href="/#products">
+              Products
             </Link>
-            <Link className="nav-link text-center px-3" href="/contact">
+            <Link className="nav-link text-center px-3" href="/#contact">
               Contact Us
             </Link>
           </div>
