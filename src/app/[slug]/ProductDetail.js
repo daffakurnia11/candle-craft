@@ -61,33 +61,36 @@ function ProductDetail({ product }) {
             <Paragraph className={"mt-2"} level={1}>
               {product.description}
             </Paragraph>
-            <div className="row gx-2 mt-2">
-              <div className="col-3 col-md-4 col-lg-2">
-                <div className="d-flex justify-content-between">
-                  <Paragraph
-                    level={1}
-                    style={{ fontWeight: "bold" }}
-                    className={"mb-0"}
-                  >
-                    Variant
-                  </Paragraph>
-                  <Paragraph
-                    level={1}
-                    style={{ fontWeight: "bold" }}
-                    className={"mb-0"}
-                  >
-                    :
-                  </Paragraph>
+            {product.variant.length > 0 && (
+              <div className="row gx-2 mt-2">
+                <div className="col-3 col-md-4 col-lg-2">
+                  <div className="d-flex justify-content-between">
+                    <Paragraph
+                      level={1}
+                      style={{ fontWeight: "bold" }}
+                      className={"mb-0"}
+                    >
+                      Variant
+                    </Paragraph>
+                    <Paragraph
+                      level={1}
+                      style={{ fontWeight: "bold" }}
+                      className={"mb-0"}
+                    >
+                      :
+                    </Paragraph>
+                  </div>
+                </div>
+                <div className="col-9 col-md-8 col-lg-10">
+                  {product.variant.map((variant, key) => (
+                    <Paragraph key={key} level={1} className="mb-0">
+                      {variant}
+                    </Paragraph>
+                  ))}
                 </div>
               </div>
-              <div className="col-9 col-md-8 col-lg-10">
-                {product.variant.map((variant, key) => (
-                  <Paragraph key={key} level={1} className="mb-0">
-                    {variant}
-                  </Paragraph>
-                ))}
-              </div>
-            </div>
+            )}
+
             <div className="row gx-2 mt-2">
               <div className="col-3 col-md-4 col-lg-2">
                 <div className="d-flex justify-content-between">

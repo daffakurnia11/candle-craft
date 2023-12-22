@@ -64,7 +64,7 @@ function Footer() {
               <ul className="footer__list">
                 {listCategory.map((data, index) => (
                   <li key={index}>
-                    <Link href="/collection">{data}</Link>
+                    <Link href="/#products">{data}</Link>
                   </li>
                 ))}
                 {/* <li>
