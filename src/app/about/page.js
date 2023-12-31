@@ -1,5 +1,6 @@
 import OurValues from "../home/OurValues";
 import Header from "./Header";
+import OurGoals from "./OurGoals";
 import OurMission from "./OurMission";
 import OurVision from "./OurVision";
 
@@ -15,6 +16,7 @@ export default function About() {
       <OurValues />
       <OurVision />
       <OurMission />
+      <OurGoals />
     </>
   );
 }

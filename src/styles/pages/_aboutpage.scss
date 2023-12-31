@@ -1,4 +1,23 @@
 .vision,
-.mission {
+.mission,
+.goals {
   padding: 64px 0;
+}
+
+.goals {
+  & &__poin {
+    width: 85px;
+    height: 85px;
+    border-radius: 85px;
+    background-color: $gold-primary;
+    color: $white-primary;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  & &__description {
+    max-width: 250px;
+    margin: auto;
+  }
 }
