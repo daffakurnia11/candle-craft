@@ -140,7 +140,8 @@
   transition: all 0.3s ease-in-out;
   color: $black-primary;
   &:hover {
-    background-color: $black-primary;
+    border: 1px solid $gold-primary;
+    background-color: $gold-primary;
     color: $white-primary;
   }
 }

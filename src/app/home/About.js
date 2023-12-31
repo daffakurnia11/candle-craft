@@ -1,9 +1,15 @@
 import HomeAboutImg from "../../../public/img/home-about.jpg";
 import React from "react";
-import { ImageSection } from "../../components/Components";
+import { ImageSection, SectionButton } from "../../components/Components";
 import { Heading, Paragraph } from "../../components/Typography";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 function About() {
+  const pathname = usePathname();
+
+  console.log(pathname);
+
   return (
     <section id="about" className="about">
       <div className="container">
@@ -24,6 +30,11 @@ function About() {
               <strong>international standards</strong>, serving both{" "}
               <strong>B2B and B2C markets</strong>.
             </Paragraph>
+            {pathname !== "/about/" && (
+              <Link href="/about">
+                <SectionButton>Get to know</SectionButton>
+              </Link>
+            )}
           </div>
           <div className="col-md-6">
             <ImageSection

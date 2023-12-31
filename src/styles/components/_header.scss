@@ -10,4 +10,8 @@
   & &__cta {
     color: $white-primary;
   }
+
+  &.about-page {
+    @include header-bg($about-bg, -250px, 0);
+  }
 }
