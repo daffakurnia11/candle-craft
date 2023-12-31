@@ -9,7 +9,7 @@ export default function OurGoals() {
           Our Goals
         </Heading>
         <div className="row align-items-center justify-content-center">
-          <div className="col-md-4 my-3">
+          <div className="col-md-4 col-sm-6 my-3 goals__item">
             <div className="goals__poin mb-3">
               <Heading level={1} className={"text-center"}>
                 01
@@ -21,7 +21,7 @@ export default function OurGoals() {
               per year within 1-3 years.
             </Paragraph>
           </div>
-          <div className="col-md-4 my-3">
+          <div className="col-md-4 col-sm-6 my-3 goals__item">
             <div className="goals__poin mb-3">
               <Heading level={1} className={"text-center"}>
                 02
@@ -32,7 +32,7 @@ export default function OurGoals() {
               with unique designs and scents by the end of 2025.
             </Paragraph>
           </div>
-          <div className="col-md-4 my-3">
+          <div className="col-md-4 col-sm-6 my-3 goals__item">
             <div className="goals__poin mb-3">
               <Heading level={1} className={"text-center"}>
                 03
@@ -45,7 +45,7 @@ export default function OurGoals() {
               growth.
             </Paragraph>
           </div>
-          <div className="col-md-4 my-3">
+          <div className="col-md-4 col-sm-6 my-3 goals__item">
             <div className="goals__poin mb-3">
               <Heading level={1} className={"text-center"}>
                 04
@@ -57,7 +57,7 @@ export default function OurGoals() {
               expanding into major international markets.
             </Paragraph>
           </div>
-          <div className="col-md-4 my-3">
+          <div className="col-md-4 col-sm-6 my-3 goals__item">
             <div className="goals__poin mb-3">
               <Heading level={1} className={"text-center"}>
                 05
