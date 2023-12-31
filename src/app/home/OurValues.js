@@ -1,8 +1,8 @@
 import React from "react";
-import ValuesOne from "../../../public/icon/fast-production-cycle.png";
-import ValuesTwo from "../../../public/icon/trustworthy-transaction.png";
-import ValuesThree from "../../../public/icon/premium-quality.png";
-import ValuesFour from "../../../public/icon/exceptional-service.png";
+import ValuesOne from "../../../public/icon/values1.svg";
+import ValuesTwo from "../../../public/icon/values2.svg";
+import ValuesThree from "../../../public/icon/values3.svg";
+import ValuesFour from "../../../public/icon/values4.svg";
 import Image from "next/image";
 import { Heading, Paragraph } from "@/components/Typography";
 
