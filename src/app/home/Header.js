@@ -35,7 +35,10 @@ function Header() {
                 >
                   Exporting Exquisite Scents
                 </Heading>
-                <HeaderButton buttonAlign={"me-auto"} onClick={scrollToAbout}>
+                <HeaderButton
+                  buttonAlign={"me-auto mt-3"}
+                  onClick={scrollToAbout}
+                >
                   Start Exploring
                 </HeaderButton>
               </div>

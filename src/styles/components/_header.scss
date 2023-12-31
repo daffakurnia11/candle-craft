@@ -1,6 +1,6 @@
 .header {
   &.home {
-    @include header-bg($home-bg, -250px, 0);
+    @include header-bg($home-bg, 0px, 0);
   }
   & &__content {
     min-height: 100vh;

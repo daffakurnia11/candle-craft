@@ -10,11 +10,13 @@
     font-weight: bold;
   }
   & &-nav {
-    @media screen and (max-width: 768px) {
-      background-color: $black-primary;
+    @media screen and (max-width: 767px) {
+      background-color: $gold-primary;
+      backdrop-filter: blur(5px);
     }
   }
   &.navbar-scrolled {
-    background-color: $black-primary;
+    background-color: $gold-primary;
+    backdrop-filter: blur(5px);
   }
 }
