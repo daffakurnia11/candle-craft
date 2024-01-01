@@ -1,5 +1,5 @@
 import { ImageSection } from "@/components/Components";
-import MissionImg from "../../../public/img/vision-mission.jpg";
+import MissionImg from "../../../public/img/mission.jpg";
 import React from "react";
 import { Heading, Paragraph } from "@/components/Typography";
 
