@@ -18,7 +18,7 @@ export default function OurVision() {
               style={{ borderRadius: 24 }}
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-5 mt-md-0">
             <Heading level={2}>Our Vision</Heading>
             <Paragraph level={1}>
               <strong>Striving to be a pioneer</strong> in{" "}
