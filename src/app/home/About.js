@@ -1,9 +1,15 @@
 import HomeAboutImg from "../../../public/img/home-about.jpg";
 import React from "react";
-import { ImageSection } from "../../components/Components";
+import { ImageSection, SectionButton } from "../../components/Components";
 import { Heading, Paragraph } from "../../components/Typography";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 function About() {
+  const pathname = usePathname();
+
+  console.log(pathname);
+
   return (
     <section id="about" className="about">
       <div className="container">
@@ -11,17 +17,24 @@ function About() {
           <div className="col-md-6">
             <Heading level={2}>About</Heading>
             <Paragraph level={1}>
-              CandleCraft, a leading exporter of scented candles, captivates
-              global audiences with exquisite fragrances. Meticulously
-              handcrafted for immersive sensory experiences, our candles
-              transform spaces into havens of beauty and tranquility.
+              Based in Indonesia, <strong>CandleCraft</strong> by PT. Kurnia
+              Crafting and Supplier is an{" "}
+              <strong>innovative candle maker</strong>, known for
+              <strong>high-quality</strong>,{" "}
+              <strong>eco-friendly candles</strong>. We use{" "}
+              <strong>sustainable materials</strong> like palm wax, soy wax, and
+              beeswax to create products that are both environmentally conscious
+              and aesthetically pleasing. Partnering with{" "}
+              <strong>local communities and SMEs</strong>, CandleCraft is
+              committed to <strong>local economic growth</strong> and{" "}
+              <strong>international standards</strong>, serving both{" "}
+              <strong>B2B and B2C markets</strong>.
             </Paragraph>
-            <Paragraph level={1}>
-              Indulge in the allure of CandleCraft, where carefully curated
-              scents and stunning aesthetics create cherished moments.
-              Experience the transformative power of our scented candles,
-              bringing magic to every corner of the globe.
-            </Paragraph>
+            {pathname !== "/about/" && (
+              <Link href="/about">
+                <SectionButton>Get to know</SectionButton>
+              </Link>
+            )}
           </div>
           <div className="col-md-6">
             <ImageSection

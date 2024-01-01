@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import { HeaderButton } from "@/components/Components";
 import { Heading } from "@/components/Typography";
-import About from "./About";
+import About from "../home/About";
 
 function Header() {
   const aboutRef = useRef(null);
@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <>
-      <header className={`header home`}>
+      <header className={`header about-page`}>
         <div className="container">
           <div className={`row flex-row`}>
             <div className="col-lg-6">
@@ -27,19 +27,19 @@ function Header() {
                   level={4}
                   className={`m-0 header__subtitle text-start`}
                 >
-                  The Best Exporter from Indonesia
+                  PT. Kurnia Crafting and Supplier
                 </Heading>
                 <Heading
                   level={1}
                   className={`m-0 header__title my-3 my-lg-0 text-start`}
                 >
-                  Exporting Exquisite Scents
+                  CandleCraft
                 </Heading>
                 <HeaderButton
                   buttonAlign={"me-auto mt-3"}
                   onClick={scrollToAbout}
                 >
-                  Start Exploring
+                  Get to Know
                 </HeaderButton>
               </div>
             </div>

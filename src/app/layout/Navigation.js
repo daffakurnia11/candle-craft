@@ -64,7 +64,7 @@ function Navigation() {
             <Link className="nav-link text-center px-3" href="/#">
               Home
             </Link>
-            <Link className="nav-link text-center px-3" href="/#about">
+            <Link className="nav-link text-center px-3" href="/about">
               About
             </Link>
             <Link className="nav-link text-center px-3" href="/#products">

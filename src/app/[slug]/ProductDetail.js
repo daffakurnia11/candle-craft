@@ -21,7 +21,7 @@ function ProductDetail({ product }) {
         <div className="row">
           <div className="col-md-6 col-lg-4 mb-4">
             <Image
-              src={`/product/${product.image[activeImage]}`}
+              src={`/product/${product.slug}/${product.image[activeImage]}`}
               width={450}
               height={450}
               alt={`${product.name} Image`}
@@ -31,7 +31,7 @@ function ProductDetail({ product }) {
               {product.image.map((image, index) => (
                 <SwiperSlide key={index}>
                   <Image
-                    src={`/product/${image}`}
+                    src={`/product/${product.slug}/${image}`}
                     width={450}
                     height={450}
                     alt={`${image} file`}
@@ -45,9 +45,9 @@ function ProductDetail({ product }) {
             </Swiper>
           </div>
           <div className="col-md-6 col-lg-8">
-            <Heading level={6} className={"m-0"}>
+            <Paragraph level={1} className={"m-0"}>
               {product.category}
-            </Heading>
+            </Paragraph>
             <Heading level={4} className={"m-0"}>
               {product.name}
             </Heading>
@@ -61,6 +61,33 @@ function ProductDetail({ product }) {
             <Paragraph className={"mt-2"} level={1}>
               {product.description}
             </Paragraph>
+            <div className="row gx-2 mt-2">
+              <div className="col-3 col-md-4 col-lg-2">
+                <div className="d-flex justify-content-between">
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    Materials
+                  </Paragraph>
+                  <Paragraph
+                    level={1}
+                    style={{ fontWeight: "bold" }}
+                    className={"mb-0"}
+                  >
+                    :
+                  </Paragraph>
+                </div>
+              </div>
+              <div className="col-9 col-md-8 col-lg-10">
+                {product.material.map((variant, key) => (
+                  <Paragraph key={key} level={1} className="mb-0">
+                    {variant}
+                  </Paragraph>
+                ))}
+              </div>
+            </div>
             {product.variant.length > 0 && (
               <div className="row gx-2 mt-2">
                 <div className="col-3 col-md-4 col-lg-2">
