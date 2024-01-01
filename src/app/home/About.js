@@ -19,7 +19,7 @@ function About() {
             <Paragraph level={1}>
               Based in Indonesia, <strong>CandleCraft</strong> by PT. Kurnia
               Crafting and Supplier is an{" "}
-              <strong>innovative candle maker</strong>, known for
+              <strong>innovative candle maker</strong>, known for{" "}
               <strong>high-quality</strong>,{" "}
               <strong>eco-friendly candles</strong>. We use{" "}
               <strong>sustainable materials</strong> like palm wax, soy wax, and

@@ -17,8 +17,8 @@ export default function OurGoals() {
             </div>
             <Paragraph level={1} className={"text-center goals__description"}>
               Increase candle production to achieve{" "}
-              <strong>10-15 container shipments</strong>
-              per year within 1-3 years.
+              <strong>10-15 container shipments</strong> per year within 1-3
+              years.
             </Paragraph>
           </div>
           <div className="col-md-4 col-sm-6 my-3 goals__item">

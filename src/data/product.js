@@ -94,7 +94,7 @@ const listProduct = [
       "Blue Sky",
       "Purple Lavender",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 60,
       width: 60,
@@ -131,7 +131,7 @@ const listProduct = [
       "Blue Sky",
       "Purple Lavender",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 40,
       width: 40,
@@ -148,7 +148,7 @@ const listProduct = [
     name: "Glass Crystal Candle",
     image: ["glass-crystal.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 50,
       width: 50,
@@ -165,7 +165,7 @@ const listProduct = [
     name: "Glass Flowery Candle",
     image: ["glass-flowery.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 50,
       width: 50,
@@ -202,7 +202,7 @@ const listProduct = [
       "Blue Sky Rose",
       "Purple Lavender Rose",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 50,
       width: 50,
@@ -219,7 +219,7 @@ const listProduct = [
     name: "Wooden Bowl Candle",
     image: ["wooden-bowl.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 100,
       width: 100,
@@ -236,7 +236,7 @@ const listProduct = [
     name: "Concrete Candle",
     image: ["diamond-concrete-1.jpg", "diamond-concrete-2.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
     dimension: {
       length: 60,
       width: 60,
