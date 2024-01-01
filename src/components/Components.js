@@ -45,8 +45,8 @@ const SectionButton = ({ children, className }) => {
   return <button className={`button__white ${className}`}>{children}</button>;
 };
 
-const SmallButton = ({ children, classname }) => {
-  return <button className={`button__small ${classname}`}>{children}</button>;
+const SmallButton = ({ children, className }) => {
+  return <button className={`button__small ${className}`}>{children}</button>;
 };
 
 export { ImageSection, HeaderButton, SmallButton, SectionButton };

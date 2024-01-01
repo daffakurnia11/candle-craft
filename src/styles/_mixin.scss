@@ -154,7 +154,7 @@
 
 @mixin button-small {
   background-color: transparent;
-  border: 1px solid $brown-primary;
+  border: 1px solid $black-primary;
   padding: 8px 24px;
   border-radius: 40px;
   width: fit-content;
@@ -163,7 +163,8 @@
   transition: all 0.3s ease-in-out;
   color: $black-primary;
   &:hover {
-    background-color: $black-primary;
+    border: 1px solid $gold-primary;
+    background-color: $gold-primary;
     color: $white-primary;
   }
 }
