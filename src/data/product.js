@@ -1,4 +1,72 @@
 const listProduct = [
+  // PALM WAX BLOCK DATA
+  {
+    category: "Wax Blocks",
+    slug: "palm-wax-block",
+    name: "Palm Wax Block",
+    image: ["palm-wax-block.jpg"],
+    variant: [],
+    material: ["Palm Wax"],
+    dimension: {
+      length: 25,
+      width: 25,
+      height: 20,
+    },
+    weight: 7,
+    description:
+      "Discover the eco-friendly elegance of our Palm Wax Eco-Cubes, where sustainability meets simplicity. Each cube, meticulously crafted to weigh an exact 7 grams, is made from premium palm wax, known for its clean burn and crystalline structure. Ideal for a conscious lifestyle, these wax cubes offer a greener choice for DIY candle making enthusiasts looking to infuse their space with a touch of eco-luxury.",
+  },
+  // SOY WAX BLOCK DATA
+  {
+    category: "Wax Blocks",
+    slug: "soy-wax-block",
+    name: "Soy Wax Block",
+    image: ["soy-wax-block.jpg"],
+    variant: [],
+    material: ["Soy Wax"],
+    dimension: {
+      length: 25,
+      width: 25,
+      height: 20,
+    },
+    weight: 7,
+    description:
+      "Embrace the natural purity of our Soy Wax Pure Blocks, designed for the environmentally savvy artisan. These 7-gram blocks are made from 100% soy wax, providing a longer, cleaner burn without the release of toxins. Perfect for crafting your own candles at home, they are a testament to your commitment to natural products and a healthier environment.",
+  },
+  // SOY WAX BLOCK DATA
+  {
+    category: "Wax Blocks",
+    slug: "beeswax-block",
+    name: "Beeswax Block",
+    image: ["beeswax-block.jpg"],
+    variant: [],
+    material: ["Beeswax"],
+    dimension: {
+      length: 25,
+      width: 25,
+      height: 20,
+    },
+    weight: 7,
+    description:
+      "Experience the purity of all-natural beeswax with our premium, small-batch beeswax pellets. Each 7g nugget in our 250g box—totaling 35 pieces—is crafted for excellence. Ideal for DIY enthusiasts and crafters, these pellets are perfect for homemade candles, skincare, and more. Sustainably sourced and additive-free, our beeswax offers a touch of nature's simplicity to your creative endeavors.",
+  },
+  // TEA-LIGHT CANDLE DATA
+  {
+    category: "Tea-light Candle",
+    slug: "tea-light-candle",
+    name: "Tea-light Candle",
+    image: ["tea-light-candle-1.jpg", "tea-light-candle-2.jpg"],
+    variant: [],
+    material: ["Palm Wax"],
+    dimension: {
+      length: 40,
+      width: 40,
+      height: 15,
+    },
+    weight: 20,
+    description:
+      "Step into the realm of minimalism and functionality with our Industrial Tea-light Collection. Encased in sleek metal containers, these pure wax candles offer a modern twist on the classic tea-light, providing a clean and prolonged burn for your tranquil evenings. Whether scattered across a tables-cape or lined up to bathe a space in a gentle glow, these tea-lights are a versatile choice for everyday elegance. Perfect for setting a calming atmosphere or as a thoughtful gift, they are a staple for any candle enthusiast.",
+  },
   // BUBBLE CANDLE DATA
   {
     category: "Scented Bubble Candle",
@@ -182,6 +250,7 @@ const listProduct = [
 
 export const listCategory = [
   "Wax Blocks",
+  "Tea-light Candle",
   "Scented Bubble Candle",
   "Glass Candle",
   "Wooden Bowl Candle",
