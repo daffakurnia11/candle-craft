@@ -55,6 +55,14 @@
   }
 }
 
+.materials {
+  padding: 64px 0;
+  & &__image {
+    border-radius: 32px;
+    box-shadow: 4px 4px 10px #0000004f;
+  }
+}
+
 .location {
   padding: 64px 0;
 }
