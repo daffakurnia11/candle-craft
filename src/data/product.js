@@ -94,7 +94,7 @@ const listProduct = [
       "Blue Sky",
       "Purple Lavender",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
       length: 60,
       width: 60,
@@ -131,7 +131,7 @@ const listProduct = [
       "Blue Sky",
       "Purple Lavender",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
       length: 40,
       width: 40,
@@ -148,7 +148,7 @@ const listProduct = [
     name: "Glass Crystal Candle",
     image: ["glass-crystal.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
       length: 50,
       width: 50,
@@ -165,7 +165,7 @@ const listProduct = [
     name: "Glass Flowery Candle",
     image: ["glass-flowery.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
       length: 50,
       width: 50,
@@ -202,7 +202,7 @@ const listProduct = [
       "Blue Sky Rose",
       "Purple Lavender Rose",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
       length: 50,
       width: 50,
@@ -213,22 +213,22 @@ const listProduct = [
       "Our Small Rose Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available in a variety of hues to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
   },
   // WOODEN BOWL CANDLE DATA
-  {
-    category: "Wooden Bowl Candle",
-    slug: "wooden-bowl-candle",
-    name: "Wooden Bowl Candle",
-    image: ["wooden-bowl.jpg"],
-    variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
-    dimension: {
-      length: 100,
-      width: 100,
-      height: 50,
-    },
-    weight: 175,
-    description:
-      "Embrace the fusion of natural elegance and minimalist design with our Wooden Bowl Candle. Each candle is cradled in a handcrafted wooden bowl, bringing a touch of organic sophistication to your decor. The unscented, pure wax poured into this durable and rustic vessel offers a serene and clean burn, ideal for setting a tranquil ambiance in any space. This versatile piece serves not only as a source of soft light but also as a timeless addition to your home, blending seamlessly with any style.",
-  },
+  // {
+  //   category: "Wooden Bowl Candle",
+  //   slug: "wooden-bowl-candle",
+  //   name: "Wooden Bowl Candle",
+  //   image: ["wooden-bowl.jpg"],
+  //   variant: [],
+  //   material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+  //   dimension: {
+  //     length: 100,
+  //     width: 100,
+  //     height: 50,
+  //   },
+  //   weight: 175,
+  //   description:
+  //     "Embrace the fusion of natural elegance and minimalist design with our Wooden Bowl Candle. Each candle is cradled in a handcrafted wooden bowl, bringing a touch of organic sophistication to your decor. The unscented, pure wax poured into this durable and rustic vessel offers a serene and clean burn, ideal for setting a tranquil ambiance in any space. This versatile piece serves not only as a source of soft light but also as a timeless addition to your home, blending seamlessly with any style.",
+  // },
   // CONCRETE CANDLE DATA
   {
     category: "Concrete Candle",
@@ -236,7 +236,7 @@ const listProduct = [
     name: "Concrete Candle",
     image: ["diamond-concrete-1.jpg", "diamond-concrete-2.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
+    material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
       length: 60,
       width: 60,

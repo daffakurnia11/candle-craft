@@ -170,7 +170,7 @@ function ProductDetail({ product }) {
               </div>
               <div className="col-9 col-md-8 col-lg-10">
                 <Paragraph level={1} className="mb-0">
-                  {product.weight} gr
+                  {product.weight} gr / pcs
                 </Paragraph>
               </div>
             </div>
