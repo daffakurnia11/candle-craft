@@ -50,23 +50,6 @@ const listProduct = [
     description:
       "Experience the purity of all-natural beeswax with our premium, small-batch beeswax pellets. Each 7g nugget in our 250g box—totaling 35 pieces—is crafted for excellence. Ideal for DIY enthusiasts and crafters, these pellets are perfect for homemade candles, skincare, and more. Sustainably sourced and additive-free, our beeswax offers a touch of nature's simplicity to your creative endeavors.",
   },
-  // TEA-LIGHT CANDLE DATA
-  {
-    category: "Tea-light Candle",
-    slug: "tea-light-candle",
-    name: "Tea-light Candle",
-    image: ["tea-light-candle-1.jpg", "tea-light-candle-2.jpg"],
-    variant: [],
-    material: ["Palm Wax"],
-    dimension: {
-      length: 40,
-      width: 40,
-      height: 15,
-    },
-    weight: 20,
-    description:
-      "Step into the realm of minimalism and functionality with our Industrial Tea-light Collection. Encased in sleek metal containers, these pure wax candles offer a modern twist on the classic tea-light, providing a clean and prolonged burn for your tranquil evenings. Whether scattered across a tables-cape or lined up to bathe a space in a gentle glow, these tea-lights are a versatile choice for everyday elegance. Perfect for setting a calming atmosphere or as a thoughtful gift, they are a staple for any candle enthusiast.",
-  },
   // BUBBLE CANDLE DATA
   {
     category: "Scented Bubble Candle",
@@ -94,7 +77,7 @@ const listProduct = [
       "Blue Sky",
       "Purple Lavender",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax"],
     dimension: {
       length: 60,
       width: 60,
@@ -102,7 +85,24 @@ const listProduct = [
     },
     weight: 165,
     description:
-      "Unveil a touch of elegance with our Bubble Sphere Candle, a design-centric piece that brings a modern twist to traditional lighting. Available in pure palm wax, soy wax, or beeswax options, this candle's distinctive bubble design is a conversation starter, adding a sculptural element to any decor. The unique arrangement of spheres casts a mesmerizing light, creating a serene ambiance in your sanctuary.",
+      "Unveil a touch of elegance with our Bubble Candle, a design-centric piece that brings a modern twist to traditional lighting. Available in pure palm wax or soy wax options, this candle's distinctive bubble design is a conversation starter, adding a sculptural element to any decor. The unique arrangement of spheres casts a mesmerizing light, creating a serene ambiance in your sanctuary.",
+  },
+  // BUBBLE BEESWAX CANDLE DATA
+  {
+    category: "Scented Bubble Candle",
+    slug: "bubble-beeswax-candle",
+    name: "Bubble Beeswax Candle",
+    image: ["bubble-3x3-beeswax.jpg"],
+    variant: [],
+    material: ["Beeswax"],
+    dimension: {
+      length: 60,
+      width: 60,
+      height: 60,
+    },
+    weight: 165,
+    description:
+      "Unveil a touch of elegance with our Bubble Candle, a design-centric piece that brings a modern twist to traditional lighting. Available in pure beeswax options, this candle's distinctive bubble design is a conversation starter, adding a sculptural element to any decor. The unique arrangement of spheres casts a mesmerizing light, creating a serene ambiance in your sanctuary.",
   },
   // MINI BUBBLE CANDLE DATA
   {
@@ -131,7 +131,7 @@ const listProduct = [
       "Blue Sky",
       "Purple Lavender",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax"],
     dimension: {
       length: 40,
       width: 40,
@@ -139,7 +139,24 @@ const listProduct = [
     },
     weight: 40,
     description:
-      "Discover minimalist charm with our Cluster Candle, designed to infuse tranquility into your home. Molded from your choice of pristine palm, soy, or beeswax, this candle features a quartet of interconnected spheres. Its sleek, white design adds a contemporary yet timeless aesthetic to any room, perfect for those serene moments of relaxation.",
+      "Discover minimalist charm with our Cluster Candle, designed to infuse tranquility into your home. Molded from your choice of pristine palm wax or soy wax, this candle features a quartet of interconnected spheres. Its sleek, white design adds a contemporary yet timeless aesthetic to any room, perfect for those serene moments of relaxation.",
+  },
+  // MINI BUBBLE BEESWAX CANDLE DATA
+  {
+    category: "Scented Bubble Candle",
+    slug: "mini-bubble-beeswax-candle",
+    name: "Mini Bubble Beeswax Candle",
+    image: ["bubble-2x2-beeswax.jpg"],
+    variant: [],
+    material: ["Beeswax"],
+    dimension: {
+      length: 40,
+      width: 40,
+      height: 35,
+    },
+    weight: 40,
+    description:
+      "Discover minimalist charm with our Cluster Candle, designed to infuse tranquility into your home. Molded from your choice of pristine beeswax, this candle features a quartet of interconnected spheres. Its sleek, white design adds a contemporary yet timeless aesthetic to any room, perfect for those serene moments of relaxation.",
   },
   // GLASS CRYSTAL CANDLE DATA
   {
@@ -148,7 +165,7 @@ const listProduct = [
     name: "Glass Crystal Candle",
     image: ["glass-crystal.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax"],
     dimension: {
       length: 50,
       width: 50,
@@ -165,7 +182,7 @@ const listProduct = [
     name: "Glass Flowery Candle",
     image: ["glass-flowery.jpg"],
     variant: [],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax"],
     dimension: {
       length: 50,
       width: 50,
@@ -202,7 +219,24 @@ const listProduct = [
       "Blue Sky Rose",
       "Purple Lavender Rose",
     ],
-    material: ["Palm Wax", "Soy Wax", "Beeswax"],
+    material: ["Palm Wax", "Soy Wax"],
+    dimension: {
+      length: 50,
+      width: 50,
+      height: 65,
+    },
+    weight: 175,
+    description:
+      "Our Small Rose Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available in a variety of hues to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
+  },
+  // BEESWAX GLASS CANDLE DATA
+  {
+    category: "Glass Candle",
+    slug: "beeswax-glass-candle",
+    name: "Beeswax Glass Candle",
+    image: ["beeswax-glass-candle.jpg"],
+    variant: [],
+    material: ["Beeswax"],
     dimension: {
       length: 50,
       width: 50,
@@ -213,28 +247,33 @@ const listProduct = [
       "Our Small Rose Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available in a variety of hues to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
   },
   // WOODEN BOWL CANDLE DATA
-  // {
-  //   category: "Wooden Bowl Candle",
-  //   slug: "wooden-bowl-candle",
-  //   name: "Wooden Bowl Candle",
-  //   image: ["wooden-bowl.jpg"],
-  //   variant: [],
-  //   material: ["Palm Wax", "Soy Wax", "Beeswax", "Paraffin Wax"],
-  //   dimension: {
-  //     length: 100,
-  //     width: 100,
-  //     height: 50,
-  //   },
-  //   weight: 175,
-  //   description:
-  //     "Embrace the fusion of natural elegance and minimalist design with our Wooden Bowl Candle. Each candle is cradled in a handcrafted wooden bowl, bringing a touch of organic sophistication to your decor. The unscented, pure wax poured into this durable and rustic vessel offers a serene and clean burn, ideal for setting a tranquil ambiance in any space. This versatile piece serves not only as a source of soft light but also as a timeless addition to your home, blending seamlessly with any style.",
-  // },
+  {
+    category: "Wooden Bowl Candle",
+    slug: "wooden-bowl-candle",
+    name: "Wooden Bowl Candle",
+    image: ["wooden-bowl.jpg"],
+    variant: [],
+    material: ["Palm Wax", "Soy Wax"],
+    dimension: {
+      length: 100,
+      width: 100,
+      height: 50,
+    },
+    weight: 175,
+    description:
+      "Embrace the fusion of natural elegance and minimalist design with our Wooden Bowl Candle. Each candle is cradled in a handcrafted wooden bowl, bringing a touch of organic sophistication to your decor. The unscented, pure wax poured into this durable and rustic vessel offers a serene and clean burn, ideal for setting a tranquil ambiance in any space. This versatile piece serves not only as a source of soft light but also as a timeless addition to your home, blending seamlessly with any style.",
+  },
   // CONCRETE CANDLE DATA
   {
     category: "Concrete Candle",
     slug: "concrete-candle",
     name: "Concrete Candle",
-    image: ["diamond-concrete-1.jpg", "diamond-concrete-2.jpg"],
+    image: [
+      "hexa-concrete.png",
+      "hexa-concrete-beeswax.jpg",
+      "diamond-concrete-1.jpg",
+      "diamond-concrete-2.jpg",
+    ],
     variant: [],
     material: ["Palm Wax", "Soy Wax", "Beeswax"],
     dimension: {
@@ -245,6 +284,23 @@ const listProduct = [
     weight: 105,
     description:
       "Immerse in the understated sophistication of our Concrete Vessel Candle Collection, where industrial chic meets artisanal tranquility. Poured into a variety of geometric concrete holders, each candle is a piece of modern art for your living space. The stark, elegant lines of the concrete are softened by the warm glow of the candle within, creating a perfect harmony of form and function. Whether showcased individually or in a curated group, these candles are a statement of minimalist luxury that effortlessly enhances any decor.",
+  },
+  // TEA-LIGHT CANDLE DATA
+  {
+    category: "Tea-light Candle",
+    slug: "tea-light-candle",
+    name: "Tea-light Candle",
+    image: ["tea-light-candle-1.jpg", "tea-light-candle-2.jpg"],
+    variant: [],
+    material: ["Palm Wax"],
+    dimension: {
+      length: 40,
+      width: 40,
+      height: 15,
+    },
+    weight: 20,
+    description:
+      "Step into the realm of minimalism and functionality with our Industrial Tea-light Collection. Encased in sleek metal containers, these pure wax candles offer a modern twist on the classic tea-light, providing a clean and prolonged burn for your tranquil evenings. Whether scattered across a tables-cape or lined up to bathe a space in a gentle glow, these tea-lights are a versatile choice for everyday elegance. Perfect for setting a calming atmosphere or as a thoughtful gift, they are a staple for any candle enthusiast.",
   },
 ];
 
