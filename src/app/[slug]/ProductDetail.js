@@ -3,7 +3,7 @@ import { SectionButton } from "@/components/Components";
 import { Heading, Paragraph } from "@/components/Typography";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -13,6 +13,24 @@ function ProductDetail({ product }) {
 
   const handleImageClick = (index) => {
     setActiveImage(index);
+  };
+
+  const getColor = (variant) => {
+    switch (variant) {
+      case "Yellow Lemon":
+        return "#fffab8";
+      case "Green Mint":
+        return "#83eccc";
+      case "Pink Rose":
+        return "#ed97b1";
+      case "Blue Sky":
+        return "#8fb0ed";
+      case "Purple Lavender":
+        return "#bda9d2";
+
+      default:
+        return "#FFF";
+    }
   };
 
   return (
@@ -82,9 +100,27 @@ function ProductDetail({ product }) {
               </div>
               <div className="col-9 col-md-8 col-lg-10">
                 {product.material.map((variant, key) => (
-                  <Paragraph key={key} level={1} className="mb-0">
-                    {variant}
-                  </Paragraph>
+                  <div
+                    key={key}
+                    className="d-flex align-items-center gap-2 mb-2"
+                  >
+                    <Image
+                      className="rounded-circle"
+                      src={
+                        variant === "Palm Wax"
+                          ? "/icon/palm-wax-logo.png"
+                          : variant === "Soy Wax"
+                          ? "/icon/soy-wax-logo.png"
+                          : "/icon/beeswax-logo.png"
+                      }
+                      width="24"
+                      height="24"
+                      alt="Palm Wax Logo Icon"
+                    />
+                    <Paragraph level={1} className="mb-0">
+                      {variant}
+                    </Paragraph>
+                  </div>
                 ))}
               </div>
             </div>
@@ -110,9 +146,18 @@ function ProductDetail({ product }) {
                 </div>
                 <div className="col-9 col-md-8 col-lg-10">
                   {product.variant.map((variant, key) => (
-                    <Paragraph key={key} level={1} className="mb-0">
-                      {variant}
-                    </Paragraph>
+                    <div
+                      key={key}
+                      className="d-flex align-items-center gap-2 mb-2"
+                    >
+                      <div
+                        className="product-detail__color-variant"
+                        style={{ backgroundColor: getColor(variant) }}
+                      ></div>
+                      <Paragraph level={1} className="mb-0">
+                        {variant}
+                      </Paragraph>
+                    </div>
                   ))}
                 </div>
               </div>
@@ -170,7 +215,7 @@ function ProductDetail({ product }) {
               </div>
               <div className="col-9 col-md-8 col-lg-10">
                 <Paragraph level={1} className="mb-0">
-                  {product.weight} gr
+                  {product.weight} gr / pcs
                 </Paragraph>
               </div>
             </div>
