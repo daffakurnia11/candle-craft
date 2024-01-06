@@ -244,7 +244,7 @@ const listProduct = [
     },
     weight: 175,
     description:
-      "Our Small Rose Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available in a variety of hues to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
+      "Our Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available in a variety of hues to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
   },
   // WOODEN BOWL CANDLE DATA
   // {
