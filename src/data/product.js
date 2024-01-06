@@ -244,25 +244,25 @@ const listProduct = [
     },
     weight: 175,
     description:
-      "Our Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available in a variety of hues to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
+      "Our Glass Candle is an ode to timeless beauty, featuring a meticulously crafted wax rose at its heart. Available to match your mood or décor, each candle is a testament to love and craftsmanship. The unscented candle offers an understated yet exquisite touch, perfect for those moments when you seek to envelop your senses in the simple pleasures of life and light.",
   },
   // WOODEN BOWL CANDLE DATA
-  // {
-  //   category: "Wooden Bowl Candle",
-  //   slug: "wooden-bowl-candle",
-  //   name: "Wooden Bowl Candle",
-  //   image: ["wooden-bowl.jpg"],
-  //   variant: [],
-  //   material: ["Palm Wax", "Soy Wax"],
-  //   dimension: {
-  //     length: 100,
-  //     width: 100,
-  //     height: 50,
-  //   },
-  //   weight: 175,
-  //   description:
-  //     "Embrace the fusion of natural elegance and minimalist design with our Wooden Bowl Candle. Each candle is cradled in a handcrafted wooden bowl, bringing a touch of organic sophistication to your decor. The unscented, pure wax poured into this durable and rustic vessel offers a serene and clean burn, ideal for setting a tranquil ambiance in any space. This versatile piece serves not only as a source of soft light but also as a timeless addition to your home, blending seamlessly with any style.",
-  // },
+  {
+    category: "Wooden Bowl Candle",
+    slug: "wooden-bowl-candle",
+    name: "Wooden Bowl Candle",
+    image: ["wooden-bowl.jpg"],
+    variant: [],
+    material: ["Palm Wax", "Soy Wax"],
+    dimension: {
+      length: 100,
+      width: 100,
+      height: 50,
+    },
+    weight: 175,
+    description:
+      "Embrace the fusion of natural elegance and minimalist design with our Wooden Bowl Candle. Each candle is cradled in a handcrafted wooden bowl, bringing a touch of organic sophistication to your decor. The unscented, pure wax poured into this durable and rustic vessel offers a serene and clean burn, ideal for setting a tranquil ambiance in any space. This versatile piece serves not only as a source of soft light but also as a timeless addition to your home, blending seamlessly with any style.",
+  },
   // CONCRETE CANDLE DATA
   {
     category: "Concrete Candle",
